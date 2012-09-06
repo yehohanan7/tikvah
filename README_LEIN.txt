@@ -1,0 +1,1 @@
+lein self-install
