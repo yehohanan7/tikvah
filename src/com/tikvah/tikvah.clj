@@ -1,18 +1,24 @@
 (ns com.tikvah.tikvah
-  (:use [ring.adapter.jetty :only [run-jetty]]))
+  (:use compojure.core
+        com.tikvah.index
+        com.tikvah.http.json
+        [hiccup.middleware :only (wrap-base-url)])
+  (:require [compojure.route :as route]
+            [compojure.handler :as handler]
+            [compojure.response :as response]
+            [com.tikvah.product.products :as products]))
 
+(defroutes main-routes
+  (GET "/" [] (str "welcome to tikvah"))
 
-(defn- app [{:keys [uri]}]
-  "Default handler"
-  {:body (format "you reqested %s" uri)}
-  )
+  (GET "/products/:id" [id] (products/find id))
+  (PUT)
 
-(def ^{:private true, :doc "server"} server (atom {}))
+  (GET "/products" [] (products/find "123" "234" "555"))
 
-(defn start "Starts the server on port 8080" []
-  (swap! server (fn [_] (run-jetty app {:port 8080 :join? false})))
-  )
+  (route/resources "/")
+  (route/not-found "Page not found"))
 
-(defn stop "Stops the currently running server" []
-  (.stop @server)
-  )
+(def app
+  (-> (handler/site main-routes)
+    (wrap-base-url)))
