@@ -5,9 +5,12 @@
                  [compojure "1.1.1"]
                  [hiccup "1.0.1"]
                  [clj-json "0.3.2"]
-                 [ring/ring-jetty-adapter "0.3.8"]]
+                 [ring/ring-jetty-adapter "0.3.8"]
+                 [com.novemberain/monger "1.1.2"]]
 
-  :dev-dependencies [[lein-ring "0.6.7"]]
+  :dev-dependencies [[lein-ring "0.6.7"]
+                     [midje "1.4.0"]]
+  
   :ring {:handler com.tikvah.tikvah/app})
 
 

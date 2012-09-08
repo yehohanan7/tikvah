@@ -1,0 +1,5 @@
+(ns com.tikvah.product.repositorytest
+  (:use [com.tikvah.product.repository])
+  (:use [clojure.test])
+  (:use [midje.sweet]))
+
