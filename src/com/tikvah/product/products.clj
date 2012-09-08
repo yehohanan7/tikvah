@@ -1,14 +1,15 @@
 (ns com.tikvah.product.products
-  (:use com.tikvah.http.json))
+  (:use com.tikvah.http.json)
+  (:require [com.tikvah.product.repository :as repo]))
 
 
 
 (defn find-product [id]
-   {"id" id "name" "test product" "price" "$25"}
+   (repo/get-product id)
   )
 
 (defn create-product [{:keys [id name price]}]
-  (str "product inserted into the DB")
+    (repo/create-product {:id id :name name :price price})
   )
 
 (defn update-product [{:keys [id name price] :or {name "" price 0}}]

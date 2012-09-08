@@ -9,16 +9,14 @@
 (connect!)
 (set-db! (monger.core/get-db "tikvah"))
 
+
+(defn create-product [product]
+  (insert "products" (assoc product :_id {:id product}))
+  )
+ 
 (defn get-product [id]
   (println "repo: " (mc/find-maps "products" {:id id}))
   (if-let [prod (first (mc/find-maps "products" {:id id}))]
     (dissoc prod :_id)
     )
   )
-
-(defn create-product [product]
-  (if (not (get-product (:id product)))
-    (insert "products" (assoc product :_id (:id product)))
-    )
-  )
-
