@@ -1,8 +1,10 @@
-var connector = require('connector');
+var connector = require('./connector').connector;
+
 
 var db = connector.connect();
+var data = require('../data').data;
 
-var data = require('data');
+console.log(data);
 
 db.collection(connector.dbname, function (err, collection) {
 

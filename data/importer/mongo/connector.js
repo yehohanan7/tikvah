@@ -15,4 +15,4 @@ exports.connector = {
         return db;
     },
     dbname:'tikvah'
-};
+}
