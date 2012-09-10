@@ -6,7 +6,8 @@
                  [hiccup "1.0.1"]
                  [clj-json "0.3.2"]
                  [ring/ring-jetty-adapter "0.3.8"]
-                 [com.novemberain/monger "1.1.2"]]
+                 [com.novemberain/monger "1.1.2"]
+                 [ring-json-params "0.1.0"]]
 
   :dev-dependencies [[lein-ring "0.6.7"]
                      [midje "1.4.0"]]

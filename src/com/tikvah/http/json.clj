@@ -5,3 +5,7 @@
   {:status (or status 200)
    :headers {"Content-Type" "application/json"}
    :body (json/generate-string data)})
+
+(defn parse-string [data]
+  (json/parse-string data)
+  )

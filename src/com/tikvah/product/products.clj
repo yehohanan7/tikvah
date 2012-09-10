@@ -8,8 +8,10 @@
    (repo/get-product id)
   )
 
-(defn create-product [{:keys [id name price]}]
-    (repo/create-product {:id id :name name :price price})
+(defn create-product [product]
+    (if (repo/create-product {:id (product "id") :name (product "name")})
+      "success"
+      "error")
   )
 
 (defn update-product [{:keys [id name price] :or {name "" price 0}}]

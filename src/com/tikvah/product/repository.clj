@@ -17,6 +17,7 @@
   )
 
 (defn create-product [product]
+  (println "repo::::" product)
   (if (not (get-product (:id product)))
     (insert "products" (assoc product :_id (:id product)))
     )
