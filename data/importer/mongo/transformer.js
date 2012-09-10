@@ -2,7 +2,7 @@ var connector = require('./connector').connector;
 
 
 var db = connector.connect();
-var data = require('../data').data;
+var data = require('./data').data;
 
 console.log(data);
 
