@@ -1,0 +1,1706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BigTimeProducts>
+	<Categories>
+		<Category id="1" name="True Grip" css="trueGrip" />
+		<Category id="2" name="True Grip Women" css="trueGripWomen" />
+		<Category id="3" name="Firm Grip" css="firmGrip" />
+		<Category id="4" name="Caring Hands" css="caringHands" />
+		<Category id="5" name="Spot X" css="spotX" />
+		<Category id="6" name="Grease Monkey" css="greaseMonkey" />
+	</Categories>
+	<SubCategories>
+		<SubCategory id="0" name="" />
+		<SubCategory id="1" name="High Dexterity" />
+		<SubCategory id="2" name="Cotton &amp; Leather" />
+		<SubCategory id="3" name="Reusable" />
+		<SubCategory id="4" name="Disposable" />
+		<SubCategory id="5" name="Working Hands" />
+		<SubCategory id="6" name="Paint &amp; Stain" />
+	</SubCategories>
+	<Products>
+
+		<Product id="9000" categoryId="1" subCategoryId="1">
+			<Name>General Purpose Gloves</Name>
+			<Description><![CDATA[<p>Contractors love the snug fit and extra hand protection this high-performance glove provides. Made with durable synthetic leather, it has padded knuckle protection and Spandex stretch panels between fingers for extra comfort and ventilation. Ergonomic Natural Pull&#0153; tab makes it easy to put on/pull off.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding, terrycloth</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>S:</b> 9000-06, <b>M:</b> 9002-06, <b>L:</b> 9001-06, <b>XL:</b> 9004-06 </p>]]></Description>
+			<Image>TGHiDex9000Img.png</Image>
+			<StoreImage>Store_TGHiPerf9000.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9000.jpg</CartImage>
+			<Sizes>S, M, L, XL</Sizes>
+			<Highlights>
+				<Highlight x="281" y="290" name="Adjustable Wrist Strap" image="DetTGHidex9000Strap.jpg" />
+				<Highlight x="329" y="151" name="Padded Knuckles" image="DetTGHidex9000Knuckles.jpg" />
+				<Highlight x="289" y="77" name="Heavy-duty Stretch Panels" image="DetTGHidex9000Strech.jpg" />
+				<Highlight x="179" y="191" name="Absorbent Terrycloth" image="DetTGHidex9000Terrycloth.jpg" />
+				<Highlight x="110" y="168" name="Shock Absorbent Padding" image="DetTGHidex9000Shock.jpg" />
+				<Highlight x="221" y="281" name="Personalized Nametag" image="DetTGHidex9000Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9013" categoryId="1" subCategoryId="1">
+			<Name>All Purpose Grip Gloves</Name>
+			<Description><![CDATA[<p>This all purpose high performance  glove provides a strong grip on almost any surface and is great for handling everything from boxes to hand tools. Reinforced palm padding helps absorb impact vibrations while the ergonomic pull tab makes this glove easy to pull on and remove quickly. Terry cloth is located in an optimal position for wiping away sweat.</p> <p><b>Materials:</b> Spandex, Terry Cloth, Two-Tone PVC Palm, Foam Padding</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 9013-06</p>]]></Description>
+			<Image>TGHiDex9013Img.png</Image>
+			<StoreImage>Store_TGHiPerf9013.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9013.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="111" y="155" name="Two-tone PVC" image="DetTGHidex9013PVC.jpg" />
+				<Highlight x="145" y="268" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetTGHidex9013Tab.jpg" />
+				<Highlight x="117" y="211" name="Padding For Shock Absorption" image="DetTGHidex9013Padding.jpg" />
+				<Highlight x="189" y="143" name="Absorbent Terrycloth" image="DetTGHidex9013Cloth.jpg" />
+				<Highlight x="304" y="272" name="Adjustable Wrist Strap" image="DetTGHidex9013Strap.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9023" categoryId="1" subCategoryId="1">
+			<Name>Workmaster Gloves</Name>
+			<Description><![CDATA[<p>A two-tone PVC palm gives this hardworking, high-performance synthetic glove a tough grip. It’s comfortable too, with heavy-duty Spandex ventilated stretch panels between fingers. Easy to take off with an ergonomic Natural Pull&#0153; tab. Use the terrycloth panel to wipe away sweat.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding, PVC material</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 9023-06</p>]]></Description>
+			<Image>TGHiDex9023Img.png</Image>
+			<StoreImage>Store_TGHiPerf9023.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9023.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="93" y="174" name="Two-tone PVC Palm" image="DetTGHidex9023Palm.jpg" />
+				<Highlight x="297" y="293" name="Adjustable Wrist Strap" image="DetTGHidex9023Strap.jpg" />
+				<Highlight x="302" y="79" name="Heavy-duty Stretch Panels" image="DetTGHidex9023Stretch.jpg" />
+				<Highlight x="192" y="207" name="Absorbent Terrycloth" image="DetTGHidex9023Terrycloth.jpg" />
+				<Highlight x="233" y="295" name="Personalized Nametag" image="DetTGHidex9023Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9043" categoryId="1" subCategoryId="1">
+			<Name>Safety Max Gloves</Name>
+			<Description><![CDATA[<p>Enhance on-the-job safety with this high-performance safety glove, featuring high-visibility reflective padding. Durable synthetic leather design has shock absorbent foam padding and heavy-duty Spandex stretch panels between fingers for comfort and ventilation.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding, reflective safety padding, terrycloth</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 9043-06</p>]]></Description>
+			<Image>TGHiDex9043Img.png</Image>
+			<StoreImage>Store_TGHiPerf9043.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9043.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="297" y="138" name="Reflective Safety Padding" image="DetTGHidex9043Reflective.jpg" />
+				<Highlight x="278" y="294" name="Adjustable Wrist Strap" image="DetTGHidex9043Strap.jpg" />
+				<Highlight x="237" y="213" name="Four-Way Spandex Back" image="DetTGHidex9043Spandex.jpg" />
+				<Highlight x="184" y="193" name="Absorbent Terrycloth" image="DetTGHidex9043Terrycloth.jpg" />
+				<Highlight x="127" y="259" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetTGHidex9043Pull.jpg" />
+				<Highlight x="223" y="284" name="Personalized Nametag" image="DetTGHidex9043Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9081" categoryId="1" subCategoryId="1">
+			<Name>Utility Gloves</Name>
+			<Description><![CDATA[<p>Pick up nails and everything else with ease wearing this synthetic, high-performance work glove with a synthetic, high-dexterity leather palm. Foam padding absorbs shock and heavy-duty Spandex stretch panels between fingers add comfort and ventilation.</p> <p><b>Materials:</b> Synthetic leather high-dexterity palm, Spandex, foam padding</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>S:</b> 9081-06, <b>M:</b> 9082-06, <b>L:</b> 9083-06, <b>XL:</b> 9084-06</p>]]></Description>
+			<Image>TGHiDex9081Img.png</Image>
+			<StoreImage>Store_TGHiPerf9081.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9081.jpg</CartImage>
+			<Sizes>S, M, L, XL </Sizes>
+			<Highlights>
+				<Highlight x="92" y="167" name="Synthetic Leather Palm" image="DetTGHidex9081Palm.jpg" />
+				<Highlight x="284" y="247" name="Shirred Wrist" image="DetTGHidex9081Wrist.jpg" />
+				<Highlight x="270" y="165" name="Four-Way Stretch Spandex" image="DetTGHidex9081Spandex.jpg" />
+				<Highlight x="99" y="217" name="Padding For Shock Absorption" image="DetTGHidex9081Padding.jpg" />
+				<Highlight x="260" y="297" name="Personalized Nametag" image="DetTGHidex9081Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9090" categoryId="1" subCategoryId="1">
+			<Name>Water Resistant Gloves</Name>
+			<Description><![CDATA[<p>This is the perfect high-performance glove for working in wet environments. Made of durable synthetic leather, it’s designed with a Hipora&#0174; lining to help keep water and moisture out. The palm has a non-slip grip surface and Neoprene adds extra knuckle protection.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Neoprene, Hipora&#0174; lining, heavy-duty Spandex, terrycloth, non-slip grip, reinforced fingertips</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 9090-06 </p>]]></Description>
+			<Image>TGHiDex9090Img.png</Image>
+			<StoreImage>Store_TGHiPerf9090.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9090.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="303" y="183" name="Hipora&#0174; Lining" image="DetTGHidex9090Hipora.jpg" />
+				<Highlight x="283" y="126" name="Neoprene Protection" image="DetTGHidex9090Neoprene.jpg" />
+				<Highlight x="294" y="304" name="Adjustable Wrist Strap" image="DetTGHidex9090Strap.jpg" />
+				<Highlight x="272" y="41" name="Heavy-duty Stretch Panels" image="DetTGHidex9090StretchPanel.jpg" />
+				<Highlight x="193" y="202" name="Absorbent Terrycloth" image="DetTGHidex9090Terrycloth.jpg" />
+				<Highlight x="230" y="295" name="Personalized Nametag" image="DetTGHidex9090Nametag.jpg" />
+				<Highlight x="143" y="189" name="Non-Slip Grip" image="DetTGHidex9090NoSlip.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9093" categoryId="1" subCategoryId="1">
+			<Name>Heavy Duty Gloves</Name>
+			<Description><![CDATA[<p>Get maximum hand protection for almost any job with this synthetic leather high-performance glove. Long-wearing carbon leather-textured grip improves control. Knuckle protectors and foam padding absorb shock, while heavy-duty Spandex stretch panels between fingers add comfort and ventilation.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, carbon leather-textured grip, Spandex, foam padding, terrycloth , non-slip grip</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 9093-06 </p>]]></Description>
+			<Image>TGHiDex9093Img.png</Image>
+			<StoreImage>Store_TGHiPerf9093.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9093.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="119" y="142" name="Carbon Leather-textured Grip" image="DetTGHidex9093CarbonGrip.jpg" />
+				<Highlight x="286" y="291" name="Adjustable Wrist Strap" image="DetTGHidex9093Strap.jpg" />
+				<Highlight x="264" y="50" name="Rubber Knuckle Protectors" image="DetTGHidex9093RubberKnucks.jpg" />
+				<Highlight x="185" y="191" name="Absorbent Terry Cloth" image="DetTGHidex9093Terrycloth.jpg" />
+				<Highlight x="138" y="263" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetTGHidex9093PullTab.jpg" />
+				<Highlight x="264" y="141" name="Knuckle Protectors" image="DetTGHidex9093Knuckles.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9096" categoryId="1" subCategoryId="1">
+			<Name>True Grip Extreme Gloves</Name>
+			<Description><![CDATA[<p>This glove can withstand rough work yet be kind to hands. Natural goatskin leather is breathable and creates a great fit. Stretchable Spandex panels between fingers add comfort and ventilation. Foam padding absorbs tool vibrations.</p> <p><b>Materials:</b> Natural goatskin, Spandex stretch panels, foam padding, PVC fabric</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 9096-06 </p>]]></Description>
+			<Image>TGHiDex9096Img.png</Image>
+			<StoreImage>Store_TGHiPerf9096.jpg</StoreImage>
+			<CartImage>Cart_TGHiPerf9096.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="291" y="287" name="Adjustable Wrist Strap" image="DetTGHidex9096Strap.jpg" />
+				<Highlight x="232" y="126" name="Stretchable Spandex" image="DetTGHidex9096Stretch.jpg" />
+				<Highlight x="151" y="273" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetTGHidex9096PullTab.jpg" />
+				<Highlight x="104" y="192" name="Foam Padding" image="DetTGHidex9096Foam.jpg" />
+				<Highlight x="139" y="164" name="Goatskin Palm" image="DetTGHidex9096Palm.jpg" />
+				<Highlight x="116" y="53" name="Ventilation Holes" image="DetTGHidex9096Ventilation.jpg" />
+				<Highlight x="235" y="205" name="PVC Material" image="DetTGHidex9096PVC.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9106" categoryId="1" subCategoryId="2">
+			<Name>Nitrile Coated All-purpose Gloves</Name>
+			<Description><![CDATA[<p>This versatile glove is made of 100% polyester and coated with Nitrile, a manmade rubber that provides high dexterity and a snug fit but contains no latex. Knit wrists keep out debris.</p> <p><b>Materials:</b> 100% polyester, Nitrile coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>M:</b> 9106-06, <b>L:</b> 9107-06 </p>]]></Description>
+			<Image>TGCotLeath9106Img.png</Image>
+			<StoreImage>Store_TGCotton9107.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9107.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="264" y="159" name="100% Polyester" />
+				<Highlight x="150" y="156" name="Nitrile Coated" />
+				<Highlight x="283" y="296" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="9113" categoryId="1" subCategoryId="2">
+			<Name>Suede Cowhide Leather Gloves</Name>
+			<Description><![CDATA[<p>Tough 100% cowhide leather glove features shirred elastic wrist and wing thumb for extra comfort.</p> <p><b>Materials:</b> Cowhide leather</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>L:</b> 9113-06 </p>]]></Description>
+			<Image>TGCotLeath9113Img.png</Image>
+			<StoreImage>Store_TGCotton9113.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9113.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="270" y="135" name="100% Cowhide Leather" />
+				<Highlight x="296" y="243" name="Shirred Elastic Wrist" />
+				<Highlight x="192" y="106" name="Wing Thumb" />
+			</Highlights>
+		</Product>
+
+		<Product id="9116" categoryId="1" subCategoryId="2">
+			<Name>Brown Jersey Gloves with Mini-Dots</Name>
+			<Description><![CDATA[<p>Mini-dots increase friction to give this glove a firm grip. Made of brown cotton jersey, it has a straight thumb and knit wrist.</p> <p><b>Materials:</b> Cotton jersey, mini-dots</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>M:</b> 9116-06, <b>L:</b> 9117-06 </p>]]></Description>
+			<Image>TGCotLeath9116Img.png</Image>
+			<StoreImage>Store_TGCotton9116.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9116.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="271" y="124" name="100% Cotton Jersey" />
+				<Highlight x="204" y="103" name="Straight Thumb" />
+				<Highlight x="285" y="269" name="Knit Wrist" />
+				<Highlight x="144" y="30" name="Mini-dots" />
+			</Highlights>
+		</Product>
+
+		<Product id="9122" categoryId="1" subCategoryId="2">
+			<Name>Full Grain Leather Gloves</Name>
+			<Description><![CDATA[<p>This 100% grain leather glove has a keystone thumb that is reinforced and padded for extra comfort and long wear. Shirred elastic wrist fits snugly and keeps out debris.</p> <p><b>Materials:</b> Grain leather</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>M:</b> 9122-06, <b>L:</b> 9123-06, <b>XL:</b> 9124-06 </p>]]></Description>
+			<Image>TGCotLeath9122Img.png</Image>
+			<StoreImage>Store_TGCotton9122.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9122.jpg</CartImage>
+			<Sizes>M, L, XL</Sizes>
+			<Highlights>
+				<Highlight x="285" y="130" name="100% Grain Leather" />
+				<Highlight x="297" y="240" name="Shirred Elastic Wrist" />
+				<Highlight x="205" y="108" name="Keystone Thumb" />
+			</Highlights>
+		</Product>
+
+		<Product id="9126" categoryId="1" subCategoryId="2">
+			<Name>All-purpose Brown Jersey Gloves</Name>
+			<Description><![CDATA[<p>Made of soft brown cotton jersey, this all-purpose glove is suited for light duty work. It has a straight thumb and snug knitted wrist.</p> <p><b>Materials:</b> Cotton jersey</p> <p><b>Uses:</b> Light Duty Household, Outdoor Chores</p> <p><b>SKUs:</b> <b>M:</b> 9126-06, <b>L:</b> 9127-06 </p>]]></Description>
+			<Image>TGCotLeath9126Img.png</Image>
+			<StoreImage>Store_TGCotton9126.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9126.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="313" y="123" name="100% Cotton Jersey" />
+				<Highlight x="205" y="110" name="Straight Thumb" />
+				<Highlight x="281" y="270" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="9133" categoryId="1" subCategoryId="2">
+			<Name>Double Leather Palm Gloves</Name>
+			<Description><![CDATA[<p>Double leather palms provide extra durability for this comfortable work glove. Rubberized safety cuffs protect wrists from cuts and abrasions. The cotton denim back is tough yet breathable.</p> <p><b>Materials:</b> Leather, cotton denim</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>L:</b> 9133-06 </p>]]></Description>
+			<Image>TGCotLeath9133Img.png</Image>
+			<StoreImage>Store_TGCotton9133.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9133.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="119" y="139" name="Double Leather Palm" />
+				<Highlight x="283" y="283" name="Rubberized Safety Cuff" />
+				<Highlight x="290" y="107" name="Cotton Denim Back" />
+			</Highlights>
+		</Product>
+
+		<Product id="9137" categoryId="1" subCategoryId="2">
+			<Name>All-purpose Cotton Canvas Gloves</Name>
+			<Description><![CDATA[<p>Cool cotton canvas makes this glove durable and comfortable for almost any use. The wing thumb has extra strong seams and allows a natural grip. Knit wrist fits snugly to keep dust and dirt out.</p> <p><b>Materials:</b> Cotton canvas</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>L:</b> 9137-06 </p>]]></Description>
+			<Image>TGCotLeath9137Img.png</Image>
+			<StoreImage>Store_TGCotton9137.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9137.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="304" y="119" name="Durable Canvas" />
+				<Highlight x="196" y="106" name="Wing Thumb" />
+				<Highlight x="288" y="279" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="9143" categoryId="1" subCategoryId="2">
+			<Name>Signature Series Leather Palm Gloves</Name>
+			<Description><![CDATA[<p>Suede cowhide palms and a cotton denim back make this work glove tough yet breathable. Rubberized safety cuffs protect wrists from cuts and abrasions.</p> <p><b>Materials:</b> Suede cowhide, cotton denim</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>L:</b> 9143-06 </p>]]></Description>
+			<Image>TGCotLeath9143Img.png</Image>
+			<StoreImage>Store_TGCotton9143.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9143.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="119" y="152" name="Suede Cowhide Palm" />
+				<Highlight x="290" y="268" name="Rubberized Safety Cuff" />
+				<Highlight x="321" y="98" name="Cotton Denim Back" />
+			</Highlights>
+		</Product>
+		
+		<!--
+		<Product id="9150" categoryId="1" subCategoryId="2">
+			<Name>PVC Jersey-lined Gloves</Name>
+			<Description><![CDATA[<p>Tough on the outside, this PVC-coated work glove is lined with cotton jersey for a soft, warm feel.</p> <p><b>Materials:</b> PVC Material, Cotton Jersey</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 9150-06 </p>]]></Description>
+			<Image>TGCotLeath9150Img.png</Image>
+			<StoreImage>Store_TGCotton9150.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9150.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="144" y="280" name="Cotton Jersey Lining" />
+				<Highlight x="241" y="170" name="PVC Coated" />
+			</Highlights>
+		</Product>
+		-->
+		
+		<Product id="9162" categoryId="1" subCategoryId="2">
+			<Name>Dotted Cotton Canvas Gloves</Name>
+			<Description><![CDATA[<p>This durable cotton canvas glove works hard and stays cool. Its dotted non-slip grip and knit wrist makes it a versatile choice for many kinds of jobs.</p> <p><b>Materials:</b> Cotton canvas, PVC coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>M:</b> 9162-06, <b>L:</b> 9163-06 </p>]]></Description>
+			<Image>TGCotLeath9162Img.png</Image>
+			<StoreImage>Store_TGCotton9162.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9162.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="317" y="138" name="Durable Canvas" />
+				<Highlight x="129" y="163" name="Non-slip Grip" />
+				<Highlight x="294" y="286" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="9181" categoryId="1" subCategoryId="2">
+			<Name>All-purpose Latex Coated Gloves</Name>
+			<Description><![CDATA[<p>For comfort, strength and a firm grip, this glove is a great choice. Made from cotton knit coated with latex, it has a knit wrist for a perfect fit.</p> <p><b>Materials:</b> Cotton knit, latex coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>S:</b> 9181-06, <b>M:</b> 9182-06, <b>L:</b> 9183-06, <b>XL:</b> 9184-06 </p>]]></Description>
+			<Image>TGCotLeath9181Img.png</Image>
+			<StoreImage>Store_TGCotton9181.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9181.jpg</CartImage>
+			<Sizes>S, M, L, XL</Sizes>
+			<Highlights>
+				<Highlight x="286" y="171" name="Cotton Knit" />
+				<Highlight x="129" y="134" name="Latex Coated" />
+				<Highlight x="289" y="287" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="9190" categoryId="1" subCategoryId="2">
+			<Name>String Knit Gloves</Name>
+			<Description><![CDATA[<p>This 100% cotton knit glove fits comfortably on either hand. The knit wrist fits snugly to keep out dust and dirt.</p> <p><b>Materials:</b> Cotton knit</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 9190-06 </p>]]></Description>
+			<Image>TGCotLeath9190Img.png</Image>
+			<StoreImage>Store_TGCotton9190.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9190.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="284" y="136" name="Cotton Knit" />
+				<Highlight x="134" y="132" name="Fits Either Hand" />
+				<Highlight x="276" y="267" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+		
+		<!--
+		<Product id="9193" categoryId="1" subCategoryId="2">
+			<Name>Bamboo Glove with Latex Foam Dip</Name>
+			<Description><![CDATA[<p>An eco-friendly choice, this glove made of sturdy bamboo fabric scores big on comfort and breathability. Its anti-fungal properties protect hands working in soil or damp environments.</p> <p><b>Materials:</b> Bamboo fabric, latex coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>M:</b> 9192-06, <b>L:</b> 9193-06 </p>]]></Description>
+			<Image>TGCotLeath9193Img.png</Image>
+			<StoreImage>Store_TGCotton9193.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9193.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="263" y="155" name="Eco-friendly" />
+				<Highlight x="260" y="270" name="Breathable" />
+				<Highlight x="146" y="159" name="Anti-fungal" />
+			</Highlights>
+		</Product>
+		-->
+		
+		<Product id="9210" categoryId="1" subCategoryId="2">
+			<Name>Leather Palm Knit Wrist Gloves</Name>
+			<Description><![CDATA[<p>This all-around glove protects hands with a cowhide leather palm and snug-fitting knit wrists. The cotton denim back is durable yet breathable.</p> <p><b>Materials:</b> Cowhide leather, cotton denim</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 9210-06 </p>]]></Description>
+			<Image>TGCotLeath9210Img.png</Image>
+			<StoreImage>Store_TGCotton9210.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9210.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="129" y="155" name="Cowhide Leather Palm" />
+				<Highlight x="289" y="149" name="Cotton Denim Back" />
+				<Highlight x="294" y="273" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="9223" categoryId="1" subCategoryId="2">
+			<Name>Suede Leather Palm Glove</Name>
+			<Description><![CDATA[<p>Protect wrists from scrapes and cuts with an all-purpose glove that has a rubberized safety cuff. The cowhide palm and cotton denim back are sturdy enough for most chores.</p> <p><b>Materials:</b> Cowhide, cotton denim</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 9223-06 </p>]]></Description>
+			<Image>TGCotLeath9223Img.png</Image>
+			<StoreImage>Store_TGCotton9223.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9223.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="151" y="164" name="Cowhide Palm" />
+				<Highlight x="277" y="121" name="Cotton Denim Back" />
+				<Highlight x="275" y="272" name="Rubberized Safety Cuff" />
+			</Highlights>
+		</Product>
+
+		<Product id="9262" categoryId="1" subCategoryId="2">
+			<Name>Nitrile-coated Spandex Gloves</Name>
+			<Description><![CDATA[<p>For a snug fit and great dexterity, this glove combines four-way stretch Spandex with a Nitrile coating that resists punctures, cuts, snags and abrasions.</p> <p><b>Materials:</b> Spandex, Nitrile coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>M:</b> 9262-06, <b>L:</b> 9263-06 </p>]]></Description>
+			<Image>TGCotLeath9262Img.png</Image>
+			<StoreImage>Store_TGCotton9262.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9262.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="264" y="282" name="Adjustable Wristband" />
+				<Highlight x="261" y="180" name="Four-way Stretch Spandex" />
+				<Highlight x="129" y="156" name="Nitrile Coated" />
+			</Highlights>
+		</Product>
+
+		<Product id="9267" categoryId="1" subCategoryId="2">
+			<Name>Grain Goatskin Hybrid Work Gloves</Name>
+			<Description><![CDATA[<p>This 100% goatskin glove with natural lanolin is designed for long wear and a snug, comfortable fit. Stretchable Spandex, knuckle reinforcement, a non-slip grip and adjustable elastic wristbands make this a full-featured choice for many chores.</p> <p><b>Materials:</b> Grain goatskin, Spandex, elastic</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>L:</b> 9267-06 </p>]]></Description>
+			<Image>TGCotLeath9267Img.png</Image>
+			<StoreImage>Store_TGCotton9267.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9267.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<Highlights>
+				<Highlight x="239" y="147" name="100% Goatskin Leather" />
+				<Highlight x="312" y="135" name="Flexible Spandex" />
+				<Highlight x="239" y="280" name="Adjustable Elastic Wrist" />
+				<Highlight x="104" y="160" name="Non-slip Grip" />
+			</Highlights>
+		</Product>
+
+		<Product id="9109" categoryId="1" subCategoryId="2">
+			<Name>Kids’ Dotted Jersey Gloves</Name>
+			<Description><![CDATA[<p>Comfortable hand protection with a dotted non-slip grip makes this glove a favorite for children. Made of 100% cotton jersey with a knit wrist.</p> <p><b>Materials:</b> Cotton jersey</p> <p><b>Uses:</b> Household Chores, Hobbies, Yardwork</p> <p><b>SKUs:</b> <b>Kids:</b> 9109-06 </p>]]></Description>
+			<Image>TGCotLeath9109Img.png</Image>
+			<StoreImage>Store_TGCotton9109.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9109.jpg</CartImage>
+			<Sizes>Kids</Sizes>
+			<Highlights>
+				<Highlight x="280" y="158" name="100% Cotton Jersey" />
+				<Highlight x="267" y="266" name="Knit Wrist" />
+				<Highlight x="134" y="149" name="Non-slip Grip" />
+			</Highlights>
+		</Product>
+
+		<Product id="9119" categoryId="1" subCategoryId="2">
+			<Name>Kids’ Leather Palm Gloves</Name>
+			<Description><![CDATA[<p>This sturdy glove with a 100% cotton denim back and leather palms protects young hands during household chores. Knit wrist fits snugly and keeps out dirt.</p> <p><b>Materials:</b> Cotton denim, leather</p> <p><b>Uses:</b> Household Chores, Hobbies, Yardwork</p> <p><b>SKUs:</b> <b>Kids:</b> 9119-06 </p>]]></Description>
+			<Image>TGCotLeath9119Img.png</Image>
+			<StoreImage>Store_TGCotton9119.jpg</StoreImage>
+			<CartImage>Cart_TGCotton9119.jpg</CartImage>
+			<Sizes>Kids</Sizes>
+			<Highlights>
+				<Highlight x="313" y="105" name="100% Cotton Denim Back" />
+				<Highlight x="287" y="272" name="Knit Wrist" />
+				<Highlight x="126" y="179" name="Leather Palm" />
+			</Highlights>
+		</Product>
+
+		<Product id="9005" categoryId="2">
+			<Name>General Purpose</Name>
+			<Description><![CDATA[<p>Women love the snug fit and extra hand protection this high-performance glove provides. Made with durable synthetic leather, it has shock absorbent padding and heavy-duty Spandex stretch panels between fingers for extra comfort and ventilation. Ergonomic Natural Pull&#0153; tab makes it easy to take off glove.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding </p> <p><b>Uses:</b> Gardening, Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling</p> <p><b>SKUs:</b> <b>Fits All:</b> 9005-06 </p>]]></Description>
+			<Image>TGWomenHiDex9005Img.png</Image>
+			<StoreImage>Store_TGWomen9005.jpg</StoreImage>
+			<CartImage>Cart_TGWomen9005.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="103" y="154" name="Chamude Synthetic Leather" image="DetTGWomenHiDex9005Leather.jpg" />
+				<Highlight x="222" y="199" name="Four-Way Stretchable Spandex" image="DetTGWomenHiDex9005Spandex.jpg" />
+				<Highlight x="270" y="278" name="Adjustable Wrist Strap" image="DetTGWomenHiDex9005Strap.jpg" />
+				<Highlight x="277" y="154" name="Foam Padding" image="DetTGWomenHiDex9005Foam.jpg" />
+				<Highlight x="160" y="40" name="Fingertip Reinforcement" image="DetTGWomenHiDex9005Fingertip.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="9130" categoryId="2">
+			<Name>Leather Palm Gloves with Knit Wrist</Name>
+			<Description><![CDATA[<p>Leather palms give extra durability to this cotton denim-backed glove. Knit wrist keeps out dirt and debris.</p> <p><b>Materials:</b> 100% cotton denim, leather</p> <p><b>Uses:</b> Gardening, Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling</p> <p><b>SKUs:</b> <b>Fits All:</b> 9130-06 </p>]]></Description>
+			<Image>TGWomenGarden9130Img.png</Image>
+			<StoreImage>Store_TGWomen9130.jpg</StoreImage>
+			<CartImage>Cart_TGWomen9130.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="271" y="134" name="Cotton Denim Back" />
+				<Highlight x="287" y="271" name="Knit Wrist" />
+				<Highlight x="111" y="177" name="Leather Palm" />
+			</Highlights>
+		</Product>
+
+		<Product id="9200" categoryId="2">
+			<Name>Nitrile-coated Nylon Gloves</Name>
+			<Description><![CDATA[<p>This 100% nylon glove has a non-slip grip and a comfortable knit wrist. The durable Nitrile coating is a nonlatex rubber that improves dexterity and resists snags and punctures.</p> <p><b>Materials:</b> 100% nylon, Nitrile coating</p> <p><b>Uses:</b> Gardening, Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling</p> <p><b>SKUs:</b> <b>Fits All:</b> 9200-06 </p>]]></Description>
+			<Image>TGWomenGarden9200Img.png</Image>
+			<StoreImage>Store_TGWomen9200.jpg</StoreImage>
+			<CartImage>Cart_TGWomen9200.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="214" y="190" name="100% Nylon" />
+				<Highlight x="251" y="263" name="Comfortable Knit Wrist" />
+				<Highlight x="150" y="195" name="Non-Slip Grip" />
+				<Highlight x="158" y="39" name="Nitrile Coated" />
+			</Highlights>
+		</Product>
+
+		<Product id="9250" categoryId="2">
+			<Name>Latex Coated All Purpose Gloves</Name>
+			<Description><![CDATA[<p>In the garden and almost everywhere else, this versatile cotton jersey knit glove protects hands from dirt and grime. Latex coating adds strength, elasticity and slip resistance.</p> <p><b>Materials:</b> Cotton jersey knit, latex coating</p> <p><b>Uses:</b> Gardening, Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling</p> <p><b>SKUs:</b> <b>Fits All:</b> 9250-06 </p>]]></Description>
+			<Image>TGWomenGarden9250Img.png</Image>
+			<StoreImage>Store_TGWomen9250.jpg</StoreImage>
+			<CartImage>Cart_TGWomen9250.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="283" y="249" name="Cotton Jersey Knit" />
+				<Highlight x="129" y="259" name="Comfortable Knit Wrist" />
+				<Highlight x="122" y="156" name="Non-Slip Grip" />
+				<Highlight x="282" y="47" name="Latex Coated" />
+			</Highlights>
+		</Product>
+
+		<Product id="9260" categoryId="2">
+			<Name>Mini-Dotted Jersey Gloves</Name>
+			<Description><![CDATA[<p>When a sure grip is a must, this cotton jersey knit glove is a winner. Soft to the touch, it keeps hands clean with a comfortable snug-fitting knit wrist.</p> <p><b>Materials:</b> Cotton jersey knit</p> <p><b>Uses:</b> Gardening, Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling</p> <p><b>SKUs:</b> <b>Fits All:</b> 9260-06 </p>]]></Description>
+			<Image>TGWomenGarden9260Img.png</Image>
+			<StoreImage>Store_TGWomen9260.jpg</StoreImage>
+			<CartImage>Cart_TGWomen9260.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="274" y="1530" name="Cotton Jersey Knit" />
+				<Highlight x="269" y="282" name="Comfortable Knit Wrist" />
+				<Highlight x="121" y="170" name="Non-Slip Grip" />
+			</Highlights>
+		</Product>
+
+		<Product id="13012" categoryId="3" subCategoryId="6">
+			<Name>Reusable Stripping &amp; Refinishing Gloves</Name>
+			<Description><![CDATA[<p>This high-performance glove is chemical resistant for maximum durability and hand protection. Latex rubber molds to hands for greater dexterity. Long cuffs protect wrists and keep out paints and chemicals.</p> <p><b>Materials:</b> Latex rubber</p> <p><b>Uses:</b> Paint & Stain, Furniture Refinishing, Wood Stripping, Industrial</p> <p><b>SKUs:</b> <b>M:</b> 13102, <b>L:</b> 13103, <b>XL:</b> 13104 </p>]]></Description>
+			<Image>FGReuse13012Img.png</Image>
+			<StoreImage>Store_FGPaint13102.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13102.jpg</CartImage>
+			<Sizes>M, L, XL</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="220" y="137" name="Chemical Resistant" />
+				<Highlight x="183" y="158" name="Latex Rubber" />
+				<Highlight x="203" y="282" name="Long Protective Cuff" />
+				<Highlight x="166" y="61" name="Snug Fit" />
+				<Highlight x="206" y="222" name="Reusable" />
+			</Highlights>
+		</Product>
+
+		<Product id="13202" categoryId="3" subCategoryId="6">
+			<Name>Reusable Solvent Gloves</Name>
+			<Description><![CDATA[<p>Work with solvents and other harsh chemicals in safety with this reusable high-performance glove. It’s chemical resistant, unlined and made of Nitrile, a manmade rubber that fits like latex but is latex-free. Long cuffs add extra protection for wrists and hands.</p> <p><b>Materials:</b> Nitrile manmade rubber</p> <p><b>Uses:</b> Paint & Stain, Heavy-duty Cleaning, Refinishing, Chemical Spraying, Pool Maintenance</p> <p><b>SKUs:</b> <b>L:</b> 13203</p>]]></Description>
+			<Image>FGReuse13202Img.png</Image>
+			<StoreImage>Store_FGPaint13203.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13203.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="249" y="88" name="Latex-free" />
+				<Highlight x="166" y="172" name="Chemical Resistant" />
+				<Highlight x="206" y="236" name="Nitrile Manmade Rubber" />
+				<Highlight x="180" y="292" name="Long Protective Cuff" />
+				<Highlight x="184" y="69" name="Reusable" />
+			</Highlights>
+		</Product>
+		
+		<!--
+		<Product id="13404" categoryId="3" subCategoryId="6">
+			<Name>Long Cuff Neoprene Gloves</Name>
+			<Description><![CDATA[<p>This high-performance latex glove has a superb fit and a Neoprene coating to protect hands from harsh chemicals. The cotton flocked lining feels soft and comfortable.</p> <p><b>Materials:</b> Latex, Neoprene coating, cotton flocked lining</p> <p><b>Uses:</b> Paint & Stain, Heavy-duty Cleaning, Refinishing, Chemical Spraying, Pool Maintenance</p> <p><b>SKUs:</b> <b>10ct</b> <b>L:</b> 13403, <b>XL:</b> 13404</p>]]></Description>
+			<Image>FGReuse13404Img.png</Image>
+			<StoreImage>Store_FGPaint13404.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13404.jpg</CartImage>
+			<Sizes>L, XL</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="167" y="117" name="Snug Latex Fit" />
+				<Highlight x="250" y="114" name="Neoprene Coated" />
+				<Highlight x="183" y="312" name="Comfortable Flocked Lining" />
+				<Highlight x="173" y="170" name="Reusable" />
+			</Highlights>
+		</Product>
+		-->
+		
+		<Product id="13503" categoryId="3" subCategoryId="6">
+			<Name>Reusable Heavy-duty Cleaning Gloves</Name>
+			<Description><![CDATA[<p>Cleaning up dirt and grime is easier with this durable high-performance glove. The Neoprene coating resists harsh chemicals and protects hands. Long cuffs add extra protection.</p> <p><b>Materials:</b> Latex, Neoprene coating</p> <p><b>Uses:</b> Paint & Stain, Heavy-duty Cleaning, Refinishing, Chemical Spraying, Pool Maintenance</p> <p><b>SKUs:</b> <b>M:</b> 13502, <b>L:</b> 13503</p>]]></Description>
+			<Image>FGReuse13503Img.png</Image>
+			<StoreImage>Store_FGPaint13503.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13503.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="260" y="95" name="Chemical Resistant" />
+				<Highlight x="169" y="148" name="Neoprene Coated" />
+				<Highlight x="201" y="291" name="Long Protective Cuff" />
+				<Highlight x="233" y="27" name="Reusable" />
+			</Highlights>
+		</Product>
+
+		<Product id="12530" categoryId="3" subCategoryId="6">
+			<Name>Heavy Duty PVC Gloves</Name>
+			<Description><![CDATA[<p>The heavy duty PVC chemical gloves are fully coated, triple dipped PVC gloves. These glove feature a rough textured surface for gripping wet and dry surfaces as well as a guantlet cuff for forearm protection. PVC provides excellent durability and resistance when working with grease, oil, and chemicals.</p> <p><b>Materials:</b> PVC</p> <p><b>Uses:</b> Paint & Stain, Heavy-duty Cleaning, Refinishing, Chemical Spraying, Pool Maintenance</p>]]></Description>
+			<Image>FGReuse12530Img.png</Image>
+			<StoreImage>Store_FGPaint12530.jpg</StoreImage>
+			<CartImage>Cart_FGPaint12530.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="266" y="93" name="Non Slip Grip" />
+				<Highlight x="220" y="232" name="Long Protective Cuff" />
+				<Highlight x="150" y="300" name="Cotton Flock Lining" />
+			</Highlights>
+		</Product>
+
+		<Product id="13510" categoryId="3" subCategoryId="6">
+			<Name>Disposable Latex Gloves</Name>
+			<Description><![CDATA[<p>Disposable latex gloves are a great way to protect hands from dirt and grime. Made from natural rubber, latex provides excellent strength, elasticity, slip resistance and comfort. A light dusting with cornstarch makes the glove easy to put on and take off. Available in 10-ct and 100-ct packages.</p> <p><b>Materials:</b> Disposable latex, cornstarch powder</p> <p><b>Uses:</b> Cleaning, Home Repairs, Hair Coloring, Hobbies, Auto Care</p> <p><b>SKUs:</b> <b>10ct:</b> 13510, <b>100ct:</b> 13590</p>]]></Description>
+			<Image>FGDisposeable13510Img.png</Image>
+			<StoreImage>Store_FGPaint13510.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13510.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="274" y="102" name="Disposable Latex" />
+				<Highlight x="180" y="212" name="Slip-resistant" />
+				<Highlight x="254" y="202" name="Snug Fit" />
+				<Highlight x="233" y="286" name="Lightly Powdered" />
+			</Highlights>
+		</Product>
+
+		<Product id="13690" categoryId="3" subCategoryId="6">
+			<Name>Disposable Vinyl Gloves</Name>
+			<Description><![CDATA[<p>This vinyl glove is latex free—a good alternative for those with latex allergies. Made from oil resin, it’s strong, slip-resistant, tear-resistant and comfortable. Light dusting with cornstarch for easy on/off. Available in 10-ct and 100-ct packages.</p> <p><b>Materials:</b> Vinyl, cornstarch powder</p> <p><b>Uses:</b> Cleaning, Home Repairs, Hair Coloring, Hobbies, Auto Care</p> <p><b>SKUs:</b> <b>10ct:</b> 13610, <b>100ct:</b> 13690</p>]]></Description>
+			<Image>FGDisposeable13690Img.png</Image>
+			<StoreImage>Store_FGPaint13690.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13690.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="269" y="95" name="Disposable Vinyl" />
+				<Highlight x="156" y="169" name="Latex-free" />
+				<Highlight x="254" y="181" name="Slip-resistant" />
+				<Highlight x="191" y="239" name="Tear-resistant" />
+				<Highlight x="185" y="303" name="Lightly Powdered" />
+			</Highlights>
+		</Product>
+
+		<Product id="13710" categoryId="3" subCategoryId="6">
+			<Name>Disposable Heavy-duty Vinyl Gloves</Name>
+			<Description><![CDATA[<p>Vinyl is latex free and can be worn by those who are allergic to latex. Made from oil resin, it’s strong, slip-resistant, tear-resistant and comfortable. Light dusting with cornstarch allows easy on/off. Available in a 6-ct package.</p> <p><b>Materials:</b> Disposable vinyl, cornstarch powder</p> <p><b>Uses:</b> Cleaning, Painting, Plumbing, Landscaping</p> <p><b>SKUs:</b> <b>Fits All:</b> 13710</p>]]></Description>
+			<Image>FGDisposeable13710Img.png</Image>
+			<StoreImage>Store_FGPaint13710.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13710.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="281" y="116" name="Heavy-duty Vinyl" />
+				<Highlight x="151" y="70" name="Latex-free" />
+				<Highlight x="154" y="187" name="Disposable" />
+				<Highlight x="194" y="303" name="Lightly Powdered" />
+				<Highlight x="235" y="180" name="Slip-resistant" />
+			</Highlights>
+		</Product>
+
+		<Product id="13910" categoryId="3" subCategoryId="6">
+			<Name>Disposable Nitrile Gloves</Name>
+			<Description><![CDATA[<p>For those with latex allergies, this latex-free glove is a good alternative. Nitrile is an innovative synthetic rubber that provides dexterity and a snug fit. It resists punctures, cuts, snags, and abrasions and can be used for a wide variety of tasks. Available in 10-ct and 100-ct packages.</p> <p><b>Materials:</b> Nitrile synthetic rubber</p> <p><b>Uses:</b> Cleaning, Home Repairs, Hair Coloring, Hobbies, Auto Care</p> <p><b>SKUs:</b> <b>10ct:</b> 13820, <b>100ct:</b> 13910</p>]]></Description>
+			<Image>FGDisposeable13910Img.png</Image>
+			<StoreImage>Store_FGPaint13910.jpg</StoreImage>
+			<CartImage>Cart_FGPaint13910.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="268" y="120" name="Latex-free" />
+				<Highlight x="265" y="199" name="Puncture and tear-resistant" />
+				<Highlight x="177" y="207" name="Snug Fit" />
+				<Highlight x="236" y="293" name="Disposable" />
+			</Highlights>
+		</Product>
+
+		<Product id="17001" categoryId="3" subCategoryId="6">
+			<Name>2 in 1 Paint Tool</Name>
+			<Description><![CDATA[<p>This handy tool combines a paintbrush holder and paint can opener.</p> <p><b>SKUs:</b> 17001</p>]]></Description>
+			<Image>FG17001Img.png</Image>
+			<StoreImage>Store_FGPaint17001.jpg</StoreImage>
+			<CartImage>Cart_FGPaint17001.jpg</CartImage>
+			<Highlights>
+				<Highlight x="254" y="166" name="Convenient" />
+				<Highlight x="120" y="111" name="Duel Use" />
+			</Highlights>
+		</Product>
+
+		<Product id="2001" categoryId="3" subCategoryId="1">
+			<Name>All Purpose Work Gloves</Name>
+			<Description><![CDATA[<p>Contractors love the snug fit and extra hand protection this high-performance glove provides. Made with durable synthetic leather, it has padded knuckle protection and Spandex stretch panels between fingers for extra comfort and ventilation. Ergonomic Natural Pull&#0153; tab makes it easy to put on/pull off.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding, terrycloth</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>S:</b> 2001S, <b>M:</b> 2001M, <b>L:</b> 2001L, <b>XL:</b> 2001XL </p>]]></Description>
+			<Image>FGHiPerf2001LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2001.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2001.jpg</CartImage>
+			<Sizes>S, M, L, XL</Sizes>
+			<Highlights>
+				<Highlight x="218" y="270" name="Adjustable Wrist Strap" image="DetFGHiPerf2001Strap.jpg" />
+				<Highlight x="249" y="144" name="Padded Knuckles" image="DetFGHiPerf2001Knuckles.jpg" />
+				<Highlight x="279" y="67" name="Heavy-duty Stretch Panels" image="DetFGHiPerf2001Stretch.jpg" />
+				<Highlight x="164" y="181" name="Absorbent Terrycloth" image="DetFGHiPerf2001Cloth.jpg" />
+				<Highlight x="110" y="168" name="Shock Absorbent Padding" image="DetFGHiPerf2001Shock.jpg" />
+				<Highlight x="183" y="267" name="Personalized Nametag" image="DetFGHiPerf2001NameTag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2002" categoryId="3" subCategoryId="1">
+			<Name>All Purpose Grip Gloves</Name>
+			<Description><![CDATA[<p>This all purpose high performance  glove provides a strong grip on almost any surface and is great for handling everything from boxes to hand tools.  Reinforced palm padding helps absorb impact vibrations while the ergonomic pull tab makes this glove easy to pull on and remove quickly. Terry cloth is located in an optimal position for wiping away sweat.</p> <p><b>Materials:</b> Spandex, Terry Cloth, Two-Tone PVC Palm, Foam Padding</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 2002L</p>]]></Description>
+			<Image>FGHiPerf2002LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2002.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2002.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="113" y="162" name="Two-tone PVC" image="DetFGHiPerf2002PVC.jpg" />
+				<Highlight x="145" y="268" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetFGHiPerf2002Tab.jpg" />
+				<Highlight x="102" y="220" name="Padding For Shock Absorption" image="DetFGHiPerf2002Padding.jpg" />
+				<Highlight x="191" y="195" name="Absorbent Terrycloth" image="DetFGHiPerf2002Cloth.jpg" />
+				<Highlight x="278" y="286" name="Adjustable Wrist Strap" image="DetFGHiPerf2002Strap.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2003" categoryId="3" subCategoryId="1">
+			<Name>Trade Master Work Gloves</Name>
+			<Description><![CDATA[<p>A two-tone PVC palm gives this hardworking, high-performance synthetic glove a tough grip. It’s comfortable too, with heavy-duty Spandex ventilated stretch panels between fingers. Easy to take off with an ergonomic Natural Pull&#0153; tab. Use the terrycloth panel to wipe away sweat.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding, PVC material</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>M:</b> 2003M, <b>L:</b> 2003L,</p>]]></Description>
+			<Image>FGHiPerf2003LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2003.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2003.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="120" y="206" name="Two-tone PVC Palm" image="DetFGHiPerf2003Palm.jpg" />
+				<Highlight x="257" y="277" name="Adjustable Wrist Strap" image="DetFGHiPerf2003Strap.jpg" />
+				<Highlight x="288" y="85" name="Heavy-duty Stretch Panels" image="DetFGHiPerf2003Stretch.jpg" />
+				<Highlight x="177" y="175" name="Absorbent Terrycloth" image="DetFGHiPerf2003Cloth.jpg" />
+				<Highlight x="214" y="280" name="Personalized Nametag" image="DetFGHiPerf2003Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2005" categoryId="3" subCategoryId="1">
+			<Name>Safety Pro Work Gloves</Name>
+			<Description><![CDATA[<p>Enhance on-the-job safety with this high-performance safety glove, featuring high-visibility reflective padding. Durable synthetic leather design has shock absorbent foam padding and heavy-duty Spandex stretch panels between fingers for comfort and ventilation.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Spandex, foam padding, reflective safety padding, terrycloth</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 2005L</p>]]></Description>
+			<Image>FGHiPerf2005LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2005.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2005.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="283" y="145" name="Reflective Safety Padding" image="DetFGHiPerf2005Reflective.jpg" />
+				<Highlight x="282" y="278" name="Adjustable Wrist Strap" image="DetFGHiPerf2005Strap.jpg" />
+				<Highlight x="237" y="213" name="Four-Way Spandex Back" image="DetFGHiPerf2005Spandex.jpg" />
+				<Highlight x="192" y="190" name="Absorbent Terrycloth" image="DetFGHiPerf2005Terrycloth.jpg" />
+				<Highlight x="127" y="259" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetFGHiPerf2005Tab.jpg" />
+				<Highlight x="213" y="277" name="Personalized Nametag" image="DetFGHiPerf2005Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2012" categoryId="3" subCategoryId="1">
+			<Name>Heavy Duty Work Gloves</Name>
+			<Description><![CDATA[<p>Get maximum hand protection for almost any job with this synthetic leather high-performance glove. Long-wearing carbon leather-textured grip improves control. Knuckle protectors and foam padding absorb shock, while heavy-duty Spandex stretch panels between fingers add comfort and ventilation.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, carbon leather-textured grip, Spandex, foam padding, terrycloth , non-slip grip</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 2012L</p>]]></Description>
+			<Image>FGHiPerf2012LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2012.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2012.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="100" y="137" name="Carbon Leather-textured Grip" image="DetFGHiPerf2012Grip.jpg" />
+				<Highlight x="286" y="280" name="Adjustable Wrist Strap" image="DetFGHiPerf2012Strap.jpg" />
+				<Highlight x="270" y="70" name="Rubber Knuckle Protectors" image="DetFGHiPerf2012RubberKnucks.jpg" />
+				<Highlight x="185" y="191" name="Absorbent Terry Cloth" image="DetFGHiPerf2012Cloth.jpg" />
+				<Highlight x="138" y="263" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetFGHiPerf2012Tab.jpg" />
+				<Highlight x="302" y="156" name="Knuckle Protectors" image="DetFGHiPerf2012Knucks.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2020" categoryId="3" subCategoryId="1">
+			<Name>Utility Gloves</Name>
+			<Description><![CDATA[<p>Pick up nails and everything else with ease wearing this synthetic, high-performance work glove with a synthetic, high-dexterity leather palm. Foam padding absorbs shock and heavy-duty Spandex stretch panels between fingers add comfort and ventilation.</p> <p><b>Materials:</b> Synthetic leather high-dexterity palm, Spandex, foam padding</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>S:</b> 2020S, <b>M:</b> 2020M, <b>L:</b> 2020L, <b>XL:</b> 2020XL</p>]]></Description>
+			<Image>FGHiPerf2020LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2020.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2020.jpg</CartImage>
+			<Sizes>S, M, L, XL </Sizes>
+			<Highlights>
+				<Highlight x="99" y="177" name="Synthetic Leather Palm" image="DetFGHiPerf2020Palm.jpg" />
+				<Highlight x="265" y="267" name="Shirred Wrist" image="DetFGHiPerf2020Wrist.jpg" />
+				<Highlight x="267" y="187" name="Four-Way Stretch Spandex" image="DetFGHiPerf2020Spandex.jpg" />
+				<Highlight x="107" y="221" name="Padding For Shock Absorption" image="DetFGHiPerf2020Padding.jpg" />
+				<Highlight x="314" y="269" name="Personalized Nametag" image="DetFGHiPerf2020Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2021" categoryId="3" subCategoryId="1">
+			<Name>Water Resistant Gloves</Name>
+			<Description><![CDATA[<p>This is the perfect high-performance glove for working in wet environments. Made of durable synthetic leather, it’s designed with a Hipora&#0174; lining to help keep water and moisture out. The palm has a non-slip grip surface and Neoprene adds extra knuckle protection.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, Neoprene, Hipora&#0174; lining, heavy-duty Spandex, terrycloth, non-slip grip, reinforced fingertips</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 2021L </p>]]></Description>
+			<Image>FGHiPerf2021LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2021.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2021.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="284" y="185" name="Hipora&#0174; Lining" image="DetFGHiPerf2021Hipora.jpg" />
+				<Highlight x="250" y="138" name="Neoprene Protection" image="DetFGHiPerf2021Neoprene.jpg" />
+				<Highlight x="284" y="279" name="Adjustable Wrist Strap" image="DetFGHiPerf2021Strap.jpg" />
+				<Highlight x="278" y="86" name="Heavy-duty Stretch Panels" image="DetFGHiPerf2021Stretch.jpg" />
+				<Highlight x="163" y="188" name="Absorbent Terrycloth" image="DetFGHiPerf2021Cloth.jpg" />
+				<Highlight x="214" y="288" name="Personalized Nametag" image="DetFGHiPerf2021Nametag.jpg" />
+				<Highlight x="95" y="156" name="Non-Slip Grip" image="DetFGHiPerf2021Grip.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="2022" categoryId="3" subCategoryId="1">
+			<Name>Firm Grip Extreme Gloves</Name>
+			<Description><![CDATA[<p>This glove can withstand rough work yet be kind to hands. Natural goatskin leather is breathable and creates a great fit. Stretchable Spandex panels between fingers add comfort and ventilation. Foam padding absorbs tool vibrations.</p> <p><b>Materials:</b> Natural goatskin, Spandex stretch panels, foam padding, PVC fabric</p> <p><b>Uses:</b> Automotive, HVAC, Electrical, Plumbing, Hand and Power Tool Handling, Landscaping</p> <p><b>SKUs:</b> <b>L:</b> 2022L</p>]]></Description>
+			<Image>FGHiPerf2022LImg.png</Image>
+			<StoreImage>Store_FGHiPerf2022.jpg</StoreImage>
+			<CartImage>Cart_FGHiPerf2022.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="297" y="276" name="Adjustable Wrist Strap" image="DetFGHiPerf2022Strap.jpg" />
+				<Highlight x="253" y="143" name="Stretchable Spandex" image="DetFGHiPerf2022Spandex.jpg" />
+				<Highlight x="151" y="273" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetFGHiPerf2022Tab.jpg" />
+				<Highlight x="104" y="192" name="Foam Padding" image="DetFGHiPerf2022Foam.jpg" />
+				<Highlight x="139" y="164" name="Goatskin Palm" image="DetFGHiPerf2022Palm.jpg" />
+				<Highlight x="75" y="93" name="Ventilation Holes" image="DetFGHiPerf2022Holes.jpg" />
+				<Highlight x="270" y="168" name="PVC Material" image="DetFGHiPerf2022PVC.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="8500" categoryId="4" subCategoryId="3">
+			<Name>Reusable Neoprene-coated Latex Gloves</Name>
+			<Description><![CDATA[<p>Protect hands from strong household cleaners with this durable Neoprene-coated latex glove. It has a non-slip grip and is flocklined for comfort and easy on/off.</p> <p><b>Materials:</b> Latex, Neoprene coating, cotton flocked lining</p> <p><b>Uses:</b> Oven Cleaning, Dish Washing, Janitorial, Hair Coloring, Gardening, Pet Care</p> <p><b>SKUs:</b> <b>S:</b>8631-16, <b>M:</b>8632-16, <b>L:</b>8633-16 </p>]]></Description>
+			<Image>CHReusable8500Img.png</Image>
+			<StoreImage>Store_CHReuse8633.jpg</StoreImage>
+			<CartImage>Cart_CHReuse8633.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="202" y="66" name="Neoprene-coated Latex" />
+				<Highlight x="164" y="118" name="Non-slip Grip" />
+				<Highlight x="184" y="303" name="Comfortable Flocked Lining" />
+				<Highlight x="238" y="111" name="Reusable" />
+			</Highlights>
+		</Product>
+
+		<Product id="8507" categoryId="4" subCategoryId="3">
+			<Name>Reusable Latex-free Gloves</Name>
+			<Description><![CDATA[<p>This reusable latex-free glove fits snugly and protects hands during household chores. It has a non-slip grip and is flocklined for comfort and easy on/off.</p> <p><b>Materials:</b> Vinyl, cotton flocked lining</p> <p><b>Uses:</b> Oven Cleaning, Dish Washing, Janitorial, Hair Coloring, Gardening, Pet Care</p> <p><b>SKUs:</b> <b>M:</b>8506-16, <b>L:</b>8507-16 </p>]]></Description>
+			<Image>CHReusable8507Img.png</Image>
+			<StoreImage>Store_CHReuse8507.jpg</StoreImage>
+			<CartImage>Cart_CHReuse8507.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="218" y="32" name="Latex-free" />
+				<Highlight x="231" y="117" name="Non-slip Grip" />
+				<Highlight x="161" y="304" name="Comfortable Flocked Lining" />
+				<Highlight x="179" y="178" name="Reusable" />
+			</Highlights>
+		</Product>
+
+		<Product id="8544" categoryId="4" subCategoryId="3">
+			<Name>Reusable Latex Gloves</Name>
+			<Description><![CDATA[<p>For fit and dexterity, it’s hard to beat latex. This multi-purpose glove has a non-slip grip and is flocklined for comfort and easy on/off. Also available in a 2-ct package.</p> <p><b>Materials:</b> Latex, cotton flocked lining</p> <p><b>Uses:</b> Oven Cleaning, Dish Washing, Janitorial, Hair Coloring, Gardening, Pet Care</p> <p><b>SKUs:</b> <b>1pr S:</b>8541-16, <b>1pr M:</b>8542-16, <b>1pr L:</b>8543-16, <b>1pr XL:</b>8544-16, <b>2pr S:</b>8501-16, <b>2pr M:</b>8502-16, <b>2pr L:</b>8503-16, <b>2pr XL:</b>8504-16</p>]]></Description>
+			<Image>CHReusable8544Img.png</Image>
+			<StoreImage>Store_CHReuse8544.jpg</StoreImage>
+			<CartImage>Cart_CHReuse8544.jpg</CartImage>
+			<Sizes>S, M, L, XL</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="173" y="309" name="Comfortable Flocked Lining" />
+				<Highlight x="236" y="138" name="Non-slip Grip" />
+				<Highlight x="183" y="172" name="Reusable Latex" />
+			</Highlights>
+		</Product>
+
+		<Product id="8515" categoryId="4" subCategoryId="4">
+			<Name>Disposable Latex Gloves</Name>
+			<Description><![CDATA[<p>Latex gloves made from natural rubber offer great strength, elasticity, slip resistance and comfort. They protect hands from dirt and grime and are lightly powdered with cornstarch for easy on/off. Glove fits either hand and is available in 10-ct, 30-ct and 50-ct packages.</p> <p><b>Materials:</b> Latex, cornstarch powder</p> <p><b>Uses:</b> Painting, Hair Care, Pet Care, Auto Care</p> <p><b>SKUs:</b> <b>10ct:</b>8510-16, <b>30ct:</b>8512-16, <b>50ct:</b>8515-16</p>]]></Description>
+			<Image>CHDisposable8515Img.png</Image>
+			<StoreImage>Store_CHDisp8515.jpg</StoreImage>
+			<CartImage>Cart_CHDisp8515.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="286" y="141" name="Disposable Latex" />
+				<Highlight x="146" y="156" name="Lightly Powdered" />
+				<Highlight x="208" y="127" name="Slip-resistant" />
+				<Highlight x="182" y="284" name="Fits Either Hand" />
+			</Highlights>
+		</Product>
+
+		<Product id="8525" categoryId="4" subCategoryId="4">
+			<Name>Disposable Vinyl Gloves</Name>
+			<Description><![CDATA[<p>Latex allergies? Disposable vinyl gloves are a perfect choice. Made from oil resin, they are strong, slip-resistant, tear-resistant and comfortable. Lightly powdered with cornstarch for easy on and off, this glove fits either hand. Available in 10-ct, 30-ct and 50-ct packages.</p> <p><b>Materials:</b> Vinyl, cornstarch powder</p> <p><b>Uses:</b> Painting, Hair Care, Pet Care, Auto Care</p> <p><b>SKUs:</b> <b>10ct:</b>8520-16, <b>30ct:</b>8522-16, <b>50ct:</b>8525-16</p>]]></Description>
+			<Image>CHDisposable8525Img.png</Image>
+			<StoreImage>Store_CHDisp8525.jpg</StoreImage>
+			<CartImage>Cart_CHDisp8525.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="266" y="204" name="Disposable" />
+				<Highlight x="161" y="161" name="Latex-free" />
+				<Highlight x="225" y="154" name="Lightly Powdered" />
+				<Highlight x="169" y="243" name="Tear-resistant" />
+				<Highlight x="210" y="295" name="Slip-resistant" />
+			</Highlights>
+		</Product>
+
+		<Product id="8540" categoryId="4" subCategoryId="4">
+			<Name>Disposable Nitrile Gloves</Name>
+			<Description><![CDATA[<p>Nitrile is an innovative synthetic rubber that fits like latex but is latex-free. This glove fits either hand and resists punctures, cuts, snags and abrasions. Suitable for a wide variety of tasks. Available in 8-ct packages.</p> <p><b>Materials:</b> Nitrile synthetic rubber</p> <p><b>Uses:</b> Painting, Hair Care, Pet Care, Auto Care</p> <p><b>SKUs:</b> <b>8ct:</b>8540-16 </p>]]></Description>
+			<Image>CHDisposable8540Img.png</Image>
+			<StoreImage>Store_CHDisp8540.jpg</StoreImage>
+			<CartImage>Cart_CHDisp8540.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="155" y="98" name="Disposable Nitrile" />
+				<Highlight x="238" y="167" name="Puncture and tear-resistant" />
+				<Highlight x="168" y="289" name="Latex-free" />
+				<Highlight x="275" y="196" name="Snug Fit" />
+			</Highlights>
+		</Product>
+
+		<Product id="12620" categoryId="4" subCategoryId="5">
+			<Name>PVC-coated Gloves</Name>
+			<Description><![CDATA[<p>Tough on the outside, this PVC-coated glove has a soft, comfortable cotton flocked lining.</p> <p><b>Materials:</b> PVC coating, cotton flocked lining</p> <p><b>Uses:</b> Heavy-duty Cleaning, Cleaning with Chemicals, Siding and Window Washing, Snow Removal, Boat and Car Washing and Waxing</p> <p><b>SKUs:</b> <b>M:</b>12520-06, <b>L:</b>12530-06 </p>]]></Description>
+			<Image>CHWorking12620Img.png</Image>
+			<StoreImage>Store_CHWorking12520.jpg</StoreImage>
+			<CartImage>Cart_CHWorking12520.jpg</CartImage>
+			<Sizes>M, L</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="169" y="299" name="Comfortable Flocked Lining" />
+				<Highlight x="257" y="132" name="PVC Coated" />
+			</Highlights>
+		</Product>
+
+		<Product id="8530" categoryId="4" subCategoryId="5">
+			<Name>Long Cuff Neoprene Gloves</Name>
+			<Description><![CDATA[<p>Heavy-duty cleaning with harsh chemicals requires a tough glove that provides special hand protection. This one gets the job done and keeps hands comfortable too with a soft, cotton flocked lining.</p> <p><b>Materials:</b> Neoprene, cotton flocked lining</p> <p><b>Uses:</b> Heavy Duty Cleaning, Cleaning with Acid, Pool Maintenance, Degreasing, Chemical Spraying</p> <p><b>SKUs:</b> <b>M:</b>12620-06, <b>L:</b>12630-06, <b>XL:</b>12640-06 </p>]]></Description>
+			<Image>CHWorking8530Img.png</Image>
+			<StoreImage>Store_CHWorking12620.jpg</StoreImage>
+			<CartImage>Cart_CHWorking12620.jpg</CartImage>
+			<Sizes>M, L, XL</Sizes>
+			<ChartLink>ChemicalGuide.pdf</ChartLink>
+			<Highlights>
+				<Highlight x="258" y="87" name="Neoprene" />
+				<Highlight x="173" y="120" name="Heavy-duty" />
+				<Highlight x="169" y="309" name="Comfortable Flocked Lining" />
+				<Highlight x="219" y="213" name="Long Protective Cuff" />
+			</Highlights>
+		</Product>
+
+		<Product id="0002" categoryId="4" subCategoryId="5">
+			<Name>Hydrophilic Sponge</Name>
+			<Description><![CDATA[<p>This highly absorbent heavy-duty sponge loves water. Its superior wiping and rinsing capacity makes fast work of cleaning tile grout. Package includes two sponges.</p> <p><b>Uses:</b> Grout Cleaning</p> <p><b>SKUs:</b> b>2 Pack:</b>0705</p>]]></Description>
+			<Image>CHWorkingHydroSponge0002Img.png</Image>
+			<StoreImage>Store_CHWorking0705.jpg</StoreImage>
+			<CartImage>Cart_CHWorking0705.jpg</CartImage>
+			<Highlights>
+				<Highlight x="235" y="130" name="Highly Absorbent" />
+				<Highlight x="210" y="130" name="Heavy-duty" />
+			</Highlights>
+		</Product>
+
+		<Product id="0001" categoryId="5">
+			<Name>Spot-X Hard Water Stain and Spot Remover Kit</Name>
+			<Description><![CDATA[<p>Hard water stains and spots can’t stand up to this powerful, nontoxic stain remover. Mix it with water to remove saltwater stains, acid rain, calcium deposits, lime scale, silicon build-up, tar, road gum and soap scum. Ideal for tile, glass shower doors, porcelain sinks and tubs, glass cookware and dishes, glass ovens and stovetops, windows and windshields. Use only with non-scratch pads.</p> <p><b>Materials:</b> Walnut shell, pumice powder</p> <p><b>Uses:</b> Oven Cleaning, Dish Washing, Janitorial, Household Chores, Windows, Auto Care</p> <p><b>SKUs:</b> 0902-06 </p>]]></Description>
+			<Image>SpotX0001.png</Image>
+			<StoreImage>Store_SpotX0902.jpg</StoreImage>
+			<CartImage>Cart_SpotX0902.jpg</CartImage>
+			<Highlights>
+				<Highlight x="110" y="110" name="Nontoxic" />
+				<Highlight x="110" y="130" name="Mixes with Water" />
+				<Highlight x="110" y="150" name="Removes Stubborn Stains" />
+			</Highlights>
+		</Product>
+
+		<Product id="20103" categoryId="6" subCategoryId="1">
+			<Name>General Purpose Gloves</Name>
+			<Description><![CDATA[<p>Professionals and backyard mechanics alike love the snug fit and extra hand protection this high-performance glove provides. Made with durable synthetic leather, it has padded knuckle protection and Spandex stretch panels between fingers for extra comfort and ventilation. Easy to take off with an ergonomic Natural Pull&#0153; tab.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, 4-way spandex, foam padding, terrycloth</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b><b>L:</b> 20103, <b>XL:</b> 20104</p>]]></Description>
+			<Image>GM20103Img.png</Image>
+			<StoreImage>Store_GMHiPerf20103.jpg</StoreImage>
+			<CartImage>Cart_GMHiPerf20103.jpg</CartImage>
+			<Sizes>L, XL</Sizes>
+			<Highlights>
+				<Highlight x="278" y="282" name="Adjustable Wrist Strap" image="DetGM20103Strap.jpg" />
+				<Highlight x="262" y="169" name="Padded Knuckles" image="DetGM20103Knuckles.jpg" />
+				<Highlight x="247" y="111" name="Heavy-duty Stretch Panels" image="DetGM20103Stretch.jpg" />
+				<Highlight x="175" y="206" name="Absorbent Terrycloth" image="DetGM20103Terrycloth.jpg" />
+				<Highlight x="95" y="211" name="Shock Absorbent Padding" image="DetGM20103ShockPad.jpg" />
+				<Highlight x="211" y="281" name="Personalized Nametag" image="DetGM20103Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="21203" categoryId="6" subCategoryId="1">
+			<Name>Heavy Duty Gloves</Name>
+			<Description><![CDATA[<p>Get maximum hand protection and dexterity for almost any automotive job with this synthetic leather high-performance glove. Long-wearing carbon leather-textured grip improves control. Knuckle protectors and foam padding absorb shock, while heavy-duty Spandex stretch panels between fingers add comfort and ventilation.</p> <p><b>Materials:</b> Washable Chamude&#0153; micro-fiber suede synthetic leather, carbon leather-textured grip, four-way Spandex, foam padding, terrycloth, non-slip grip</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>L:</b> 21203</p>]]></Description>
+			<Image>GM21203Img.png</Image>
+			<StoreImage>Store_GMHiPerf21203.jpg</StoreImage>
+			<CartImage>Cart_GMHiPerf21203.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="105" y="151" name="Carbon Leather-textured Grip" image="DetGM21203Grip.jpg" />
+				<Highlight x="285" y="294" name="Adjustable Wrist Strap" image="DetGM21203Strap.jpg" />
+				<Highlight x="282" y="56" name="Heavy-duty Stretch Panels" image="DetGM21203Stretch.jpg" />
+				<Highlight x="178" y="202" name="Absorbent Terry Cloth" image="DetGM21203Terrycloth.jpg" />
+				<Highlight x="140" y="277" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetGM21203Pulltab.jpg" />
+				<Highlight x="304" y="90" name="Rubber Knuckle Protectors" image="DetGM21203Foam.jpg" />
+				<Highlight x="273" y="157" name="Knuckle Protectors" image="DetGM21203Knuckles.jpg" />
+				<Highlight x="102" y="217" name="Non-slip Grip" image="DetGM21203NoSlipGrip.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="22003" categoryId="6" subCategoryId="1">
+			<Name>Utility Gloves</Name>
+			<Description><![CDATA[<p>Fine-tune adjustments under the hood with ease wearing this synthetic, high-performance work glove with a synthetic, high-dexterity leather palm. Foam padding absorbs shock and heavy-duty Spandex stretch panels between fingers add comfort and ventilation.</p> <p><b>Materials:</b> Synthetic leather high-dexterity palm, four-way spandex, foam padding</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>L:</b> 22003</p>]]></Description>
+			<Image>GM22003Img.png</Image>
+			<StoreImage>Store_GMHiPerf22003.jpg</StoreImage>
+			<CartImage>Cart_GMHiPerf22003.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="112" y="177" name="Synthetic Leather Palm" image="DetGM22003Palm.jpg" />
+				<Highlight x="308" y="271" name="Shirred Wrist" image="DetGM22003Wrist.jpg" />
+				<Highlight x="246" y="196" name="Four-way Spandex Back" image="DetGM22003Spandex.jpg" />
+				<Highlight x="249" y="85" name="Heavy-duty Stretch Panels" image="DetGM22003Stretch.jpg" />
+				<Highlight x="266" y="291" name="Personalized Nametag" image="DetGM22003Nametag.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="22203" categoryId="6" subCategoryId="1">
+			<Name>Crew Chief Gloves</Name>
+			<Description><![CDATA[<p>This glove can withstand rough work yet be kind to hands. Natural goatskin leather is breathable and creates a great fit. Stretchable Spandex panels between fingers add comfort and ventilation. Foam padding absorbs tool vibrations.</p> <p><b>Materials:</b> Natural goatskin, Spandex stretch panels, foam padding, PVC fabric</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>L:</b> 22203</p>]]></Description>
+			<Image>GM22203Img.png</Image>
+			<StoreImage>Store_GMHiPerf22203.jpg</StoreImage>
+			<CartImage>Cart_GMHiPerf22203.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="268" y="292" name="Adjustable Wrist Strap" image="DetGM22203Strap.jpg" />
+				<Highlight x="245" y="152" name="Stretchable Spandex " image="DetGM22203Stretch.jpg" />
+				<Highlight x="144" y="277" name="Natural Pull&#0153; For Easy On, Easy Off Use" image="DetGM22203PullTab.jpg" />
+				<Highlight x="114" y="194" name="Foam Padding" image="DetGM22203Foam.jpg" />
+				<Highlight x="156" y="158" name="Goatskin Palm" image="DetGM22203Goatskin.jpg" />
+				<Highlight x="119" y="70" name="Ventilation Holes" image="DetGM22203Ventilation.jpg" />
+				<Highlight x="251" y="195" name="PVC Material" image="DetGM22203PVC.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="22103" categoryId="6" subCategoryId="1">
+			<Name>Pro Fingerless</Name>
+			<Description><![CDATA[<p>The Pro Fingerless™ glove features exposed finger tips while offering durable protection to the rest of the hand. The exposed fingers allow users to have maximum feel and control when working under the hood. A non-slip grip palm and molded rubber knuckle protection makes this glove a great choice for working on automotive related tasks.</p> <p><b>Materials:</b> Washable Chamude micro-fiber suede synthetic leather, 4-way spandex, non-slip grip palm, terry cloth, rubber knuckle protection</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>L:</b> 22103</p>]]></Description>
+			<Image>GM22103Img.png</Image>
+			<StoreImage>Store_GMHiPerf22103.jpg</StoreImage>
+			<CartImage>Cart_GMHiPerf22103.jpg</CartImage>
+			<Sizes>L</Sizes>
+			<Highlights>
+				<Highlight x="135" y="180" name="Non-Slip Grip Palm" image="DetGM22103Grip.jpg" />
+				<Highlight x="186" y="185" name="Absorbent Terry Cloth" image="DetGM22103Terrycloth.jpg" />
+				<Highlight x="294" y="128" name="Rubber Knuckle Protection" image="DetGM22103Knuckles.jpg" />
+				<Highlight x="348" y="62" name="Fingerless" image="DetGM22103Fingerless.jpg" />
+			</Highlights>
+		</Product>
+
+		<Product id="23590" categoryId="6" subCategoryId="5">
+			<Name>Latex Gloves</Name>
+			<Description><![CDATA[<p>Latex gloves, made from a natural rubber, are mechanics’ favorite for dexterity and protection from grease and grime. Latex is strong, elastic, slip resistant and comfortable. A light dusting with cornstarch makes them easy to put on and take off. Available in 10-ct, 50-ct and 100-ct packages.</p> <p><b>Materials:</b> Latex rubber</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>10ct:</b> 23510, <b>50ct:</b> 23550, <b>100ct:</b> 23590</p>]]></Description>
+			<Image>GM23590Img.png</Image>
+			<StoreImage>Store_GMDisp23590.jpg</StoreImage>
+			<CartImage>Cart_GMDisp23590.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+		</Product>
+
+		<Product id="23890" categoryId="6" subCategoryId="5">
+			<Name>Nitrile Gloves</Name>
+			<Description><![CDATA[<p>For those with latex allergies, this latex-free glove is a good alternative. Nitrile is an innovative synthetic rubber that provides dexterity and a snug fit. It resists punctures, cuts, snags, and abrasions and can be used for a wide variety of automotive tasks. Available in 8-ct, 40-ct and 100-ct packages.</p> <p><b>Materials:</b> Nitrile synthetic rubber </p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>8ct:</b> 23810, <b>40ct:</b> 23850, <b>100ct:</b> 23890</p>]]></Description>
+			<Image>GM23890Img.png</Image>
+			<StoreImage>Store_GMDisp23890.jpg</StoreImage>
+			<CartImage>Cart_GMDisp23890.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+		</Product>
+
+		<Product id="23610" categoryId="6" subCategoryId="5">
+			<Name>Vinyl Gloves</Name>
+			<Description><![CDATA[<p>Vinyl gloves are made of polyvinyl chloride (PVC) and contain no natural rubber latex, eliminating latex allergy risks. Vinyl gloves fit more loosely than latex and nitrile gloves, while offering great general hand protection for light-duty jobs. These gloves are lightly dusted with cornstarch for easy on/off use. Available in 10ct, 50ct, and 100ct packages.</p> <p><b>Materials:</b> Vinyl, cornstarch powder</p> <p><b>Uses:</b> Automotive</p> <p><b>SKUs:</b> <b>50ct:</b> 23650, <b>100ct:</b> 23690</p>]]></Description>
+			<Image>GM23610Img.png</Image>
+			<StoreImage>Store_GMDisp23610.jpg</StoreImage>
+			<CartImage>Cart_GMDisp23610.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+		</Product>
+
+		<Product id="25023" categoryId="6" subCategoryId="2">
+			<Name>Suede Leather Palm Glove</Name>
+			<Description><![CDATA[<p>Protect wrists from scrapes and cuts with an all-purpose glove that has a rubberized safety cuff. The cowhide palm and cotton denim back are sturdy enough for most chores.</p> <p><b>Materials:</b> Cowhide, cotton denim</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 25023 </p>]]></Description>
+			<Image>GMCotLeath25023Img.png</Image>
+			<StoreImage>Store_GMCotton25023.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25023.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="151" y="164" name="Cowhide Palm" />
+				<Highlight x="277" y="121" name="Cotton Denim Back" />
+				<Highlight x="275" y="272" name="Rubberized Safety Cuff" />
+			</Highlights>
+		</Product>
+
+		<Product id="25063" categoryId="6" subCategoryId="2">
+			<Name>Cotton Canvas Gloves</Name>
+			<Description><![CDATA[<p>This durable cotton canvas glove works hard and stays cool.</p> <p><b>Materials:</b> Cotton canvas</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 25063 </p>]]></Description>
+			<Image>GMCotLeath25063Img.png</Image>
+			<StoreImage>Store_GMCotton25063.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25063.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="254" y="161" name="Durable Canvas" />
+				<Highlight x="265" y="280" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="25083" categoryId="6" subCategoryId="2">
+			<Name>All-purpose Latex Coated Gloves</Name>
+			<Description><![CDATA[<p>For comfort, strength and a firm grip, this glove is a great choice. Made from cotton knit coated with latex, it has a knit wrist for a perfect fit.</p> <p><b>Materials:</b> Cotton knit, latex coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 25083 </p>]]></Description>
+			<Image>GMCotLeath25083Img.png</Image>
+			<StoreImage>Store_GMCotton25083.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25083.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="255" y="176" name="Cotton Knit" />
+				<Highlight x="142" y="183" name="Latex Coated" />
+				<Highlight x="258" y="273" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="25120" categoryId="6" subCategoryId="2">
+			<Name>All-purpose Brown Jersey Gloves</Name>
+			<Description><![CDATA[<p>Made of soft brown cotton jersey, this all-purpose glove is suited for light duty work. It has a straight thumb and snug knitted wrist.</p> <p><b>Materials:</b> Cotton jersey</p> <p><b>Uses:</b> Light Duty Household, Outdoor Chores</p> <p><b>SKUs:</b> <b>Fits All:</b> 25120 </p>]]></Description>
+			<Image>GMCotLeath25120Img.png</Image>
+			<StoreImage>Store_GMCotton25120.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25120.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="313" y="123" name="100% Cotton Jersey" />
+				<Highlight x="205" y="110" name="Straight Thumb" />
+				<Highlight x="281" y="270" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="25123" categoryId="6" subCategoryId="2">
+			<Name>Full Grain Leather Gloves</Name>
+			<Description><![CDATA[<p>This 100% grain leather glove has a keystone thumb that is reinforced and padded for extra comfort and long wear. Shirred elastic wrist fits snugly and keeps out debris.</p> <p><b>Materials:</b> Grain leather</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 25123 </p>]]></Description>
+			<Image>GMCotLeath25123Img.png</Image>
+			<StoreImage>Store_GMCotton25123.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25123.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="285" y="130" name="100% Grain Leather" />
+				<Highlight x="297" y="240" name="Shirred Elastic Wrist" />
+				<Highlight x="205" y="108" name="Keystone Thumb" />
+			</Highlights>
+		</Product>
+
+		<Product id="25550" categoryId="6" subCategoryId="2">
+			<Name>Nitrile Coated All-purpose Gloves</Name>
+			<Description><![CDATA[<p>This versatile glove is made of 100% polyester and coated with Nitrile, a manmade rubber that provides high dexterity and a snug fit but contains no latex. Knit wrists keep out debris.</p> <p><b>Materials:</b> 100% polyester, Nitrile coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 25550 </p>]]></Description>
+			<Image>GMCotLeath25550Img.png</Image>
+			<StoreImage>Store_GMCotton25550.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25550.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="264" y="159" name="100% Polyester" />
+				<Highlight x="150" y="156" name="Nitrile Coated" />
+				<Highlight x="283" y="296" name="Knit Wrist" />
+			</Highlights>
+		</Product>
+
+		<Product id="25553" categoryId="6" subCategoryId="2">
+			<Name>Nitrile Foam Dipped Gloves</Name>
+			<Description><![CDATA[<p>For a snug fit and great dexterity, this glove combines nylon with a nitrile foam coating that resists punctures, cuts, snags, and abrasions. The extended cuff and large adjustable wristband make wearing this glove easy.</p> <p><b>Materials:</b> Nylon, Nitrile foam coating</p> <p><b>Uses:</b> Household Chores, Industrial, Yardwork</p> <p><b>SKUs:</b> <b>Fits All:</b> 25553 </p>]]></Description>
+			<Image>GMCotLeath25553Img.png</Image>
+			<StoreImage>Store_GMCotton25553.jpg</StoreImage>
+			<CartImage>Cart_GMCotton25553.jpg</CartImage>
+			<Sizes>One Size Fits All</Sizes>
+			<Highlights>
+				<Highlight x="227" y="274" name="Adjustable Wristband" />
+				<Highlight x="261" y="180" name="Four-way Stretch Spandex" />
+				<Highlight x="129" y="156" name="Nitrile Coated" />
+			</Highlights>
+		</Product>
+
+	</Products>
+	<StoreProducts>
+
+		<StoreProduct productId="9005">
+			<Name>General Purpose Gloves</Name>
+			<Sizes>
+				<Size name="A" price="11.99" sku="9005-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9130">
+			<Name>Leather Palm Gloves with Knit Wrist</Name>
+			<Sizes>
+				<Size name="A" price="5.99" sku="9130-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9200">
+			<Name>Nitrile-coated Nylon Gloves</Name>
+			<Sizes>
+				<Size name="A" price="5.46" sku="9200-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9250">
+			<Name>Latex Coated All Purpose Gloves</Name>
+			<Sizes>
+				<Size name="A" price="4.37" sku="9250-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9260">
+			<Name>Mini-Dotted Jersey Gloves</Name>
+			<Sizes>
+				<Size name="A" price="3.28" sku="9260-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9106">
+			<Name>Nitrile Coated All-purpose Gloves</Name>
+			<Sizes>
+				<Size name="M" price="4.99" sku="9106-06" />
+				<Size name="L" price="4.99" sku="9107-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9113">
+			<Name>Suede Cowhide Leather Gloves</Name>
+			<Sizes>
+				<Size name="L" price="7.99" sku="9113-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9116">
+			<Name>Brown Jersey Gloves with Mini-Dots</Name>
+			<Sizes>
+				<Size name="M" price="3.28" sku="9116-06" />
+				<Size name="L" price="3.28" sku="9117-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9122">
+			<Name>Full Grain Leather Gloves</Name>
+			<Sizes>
+				<Size name="M" price="10.99" sku="9122-06" />
+				<Size name="L" price="10.99" sku="9123-06" />
+				<Size name="XL" price="10.99" sku="9124-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9126">
+			<Name>All-purpose Brown Jersey Gloves</Name>
+			<Sizes>
+				<Size name="M" price="2.00" sku="9126-06" />
+				<Size name="L" price="2.00" sku="9127-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9133">
+			<Name>Double Leather Palm Gloves</Name>
+			<Sizes>
+				<Size name="L" price="5.99" sku="9133-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9137">
+			<Name>All-purpose Cotton Canvas Gloves</Name>
+			<Sizes>
+				<Size name="L" price="1.99" sku="9137-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9143">
+			<Name>Signature Series Leather Palm Gloves</Name>
+			<Sizes>
+				<Size name="L" price="8.77" sku="9143-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9162">
+			<Name>Dotted Cotton Canvas Gloves</Name>
+			<Sizes>
+				<Size name="M" price="2.99" sku="9162-06" />
+				<Size name="L" price="2.99" sku="9163-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9181">
+			<Name>All-purpose Latex Coated Gloves</Name>
+			<Sizes>
+				<Size name="S" price="4.37" sku="9181-06" />
+				<Size name="M" price="4.37" sku="9182-06" />
+				<Size name="L" price="4.37" sku="9183-06" />
+				<Size name="XL" price="4.37" sku="9184-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9190">
+			<Name>String Knit Gloves</Name>
+			<Sizes>
+				<Size name="A" price="5.47" sku="9190-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9210">
+			<Name>Leather Palm Knit Wrist Gloves</Name>
+			<Sizes>
+				<Size name="A" price="2.17" sku="9210-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9223">
+			<Name>Suede Leather Palm Gloves</Name>
+			<Sizes>
+				<Size name="A" price="2.99" sku="9223-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9262">
+			<Name>Nitrile-coated Spandex Gloves</Name>
+			<Sizes>
+				<Size name="M" price="6.59" sku="9262-06" />
+				<Size name="L" price="6.59" sku="9263-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9109">
+			<Name>Kids' Dotted Jersey Gloves</Name>
+			<Sizes>
+				<Size name="K" price="3.99" sku="9109-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9119">
+			<Name>Kids' Leather Palm Gloves</Name>
+			<Sizes>
+				<Size name="K" price="3.99" sku="9119-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9000">
+			<Name>General Purpose Gloves</Name>
+			<Sizes>
+				<Size name="S" price="11.99" sku="9000-06" />
+				<Size name="M" price="11.99" sku="9002-06" />
+				<Size name="L" price="11.99" sku="9001-06" />
+				<Size name="XL" price="11.99" sku="9004-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9013">
+			<Name>All Purpose Grip Gloves</Name>
+			<Sizes>
+				<Size name="L" price="16.47" sku="9013-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9023">
+			<Name>Workmaster Gloves</Name>
+			<Sizes>
+				<Size name="L" price="16.47" sku="9023-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9043">
+			<Name>Safety Max Gloves</Name>
+			<Sizes>
+				<Size name="L" price="14.27" sku="9043-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9081">
+			<Name>Utility Gloves</Name>
+			<Sizes>
+				<Size name="S" price="10.97" sku="9081-06" />
+				<Size name="M" price="10.97" sku="9082-06" />
+				<Size name="L" price="10.97" sku="9083-06" />
+				<Size name="XL" price="10.97" sku="9084-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9090">
+			<Name>Water Resistant Gloves</Name>
+			<Sizes>
+				<Size name="L" price="21.97" sku="9090-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9093">
+			<Name>Heavy Duty Gloves</Name>
+			<Sizes>
+				<Size name="L" price="21.97" sku="9093-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="9096">
+			<Name>True Grip Extreme Gloves</Name>
+			<Sizes>
+				<Size name="L" price="21.97" sku="9096-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13012">
+			<Name>Reusable Stripping &amp; Refinishing Gloves</Name>
+			<Sizes>
+				<Size name="M" price="4.04" sku="13102" />
+				<Size name="L" price="4.04" sku="13103" />
+				<Size name="XL" price="4.04" sku="13104" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13202">
+			<Name>Reusable Solvent Gloves</Name>
+			<Sizes>
+				<Size name="L" price="3.23" sku="13203" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13503">
+			<Name>Reusable Heavy-duty Cleaning Gloves</Name>
+			<Sizes>
+				<Size name="M" price="3.83" sku="13502" />
+				<Size name="L" price="3.83" sku="13503" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13510">
+			<Name>Disposable Latex Gloves (10 ct)</Name>
+			<Sizes>
+				<Size name="A" price="2.18" sku="13510" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13510">
+			<Name>Disposable Latex Gloves (100 ct)</Name>
+			<Sizes>
+				<Size name="A" price="9.87" sku="13590" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13690">
+			<Name>Disposable Vinyl Gloves (10 ct)</Name>
+			<Sizes>
+				<Size name="A" price="2.18" sku="13610" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13690">
+			<Name>Disposable Vinyl Gloves (100 ct)</Name>
+			<Sizes>
+				<Size name="A" price="10.97" sku="13690" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13710">
+			<Name>Disposable Heavy-duty Vinyl Gloves</Name>
+			<Sizes>
+				<Size name="A" price="2.72" sku="13710" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13910">
+			<Name>Disposable Nitrile Gloves (10 ct)</Name>
+			<Sizes>
+				<Size name="A" price="2.73" sku="13820" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="13910">
+			<Name>Disposable Nitrile Gloves (100 ct)</Name>
+			<Sizes>
+				<Size name="A" price="16.47" sku="13910" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="17001">
+			<Name>2 in 1 Paint Tool</Name>
+			<Sizes>
+				<Size name="NA" price="3.27" sku="17001" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8500">
+			<Name>Reusable Neoprene-coated Latex Gloves</Name>
+			<Sizes>
+				<Size name="S" price="3.28" sku="8631-16" />
+				<Size name="M" price="3.28" sku="8632-16" />
+				<Size name="L" price="3.28" sku="8633-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8507">
+			<Name>Reusable Latex-free Gloves</Name>
+			<Sizes>
+				<Size name="M" price="3.49" sku="8506-16" />
+				<Size name="L" price="3.49" sku="8507-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8544">
+			<Name>Reusable Latex Gloves</Name>
+			<Sizes>
+				<Size name="S" price="2.17" sku="8541-16" />
+				<Size name="M" price="2.17" sku="8542-16" />
+				<Size name="L" price="2.17" sku="8543-16" />
+				<Size name="XL" price="2.17" sku="8544-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8515">
+			<Name>Disposable Latex Gloves (10 ct)</Name>
+			<Sizes>
+				<Size name="A" price="1.99" sku="8510-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8515">
+			<Name>Disposable Latex Gloves (30 ct)</Name>
+			<Sizes>
+				<Size name="A" price="4.99" sku="8512-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8515">
+			<Name>Disposable Latex Gloves (50 ct)</Name>
+			<Sizes>
+				<Size name="A" price="6.99" sku="8515-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8525">
+			<Name>Disposable Vinyl Gloves (10 ct)</Name>
+			<Sizes>
+				<Size name="A" price="1.99" sku="8520-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8525">
+			<Name>Disposable Vinyl Gloves (30 ct)</Name>
+			<Sizes>
+				<Size name="A" price="4.99" sku="8522-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8525">
+			<Name>Disposable Vinyl Gloves (50 ct)</Name>
+			<Sizes>
+				<Size name="A" price="6.99" sku="8525-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8540">
+			<Name>Disposable Nitrile Gloves (8 ct)</Name>
+			<Sizes>
+				<Size name="A" price="2.99" sku="8540-16" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="12620">
+			<Name>PVC-coated Gloves</Name>
+			<Sizes>
+				<Size name="M" price="6.59" sku="12520-06" />
+				<Size name="L" price="6.59" sku="12530-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="8530">
+			<Name>Long Cuff Neoprene Gloves</Name>
+			<Sizes>
+				<Size name="M" price="5.48" sku="12620-06" />
+				<Size name="L" price="5.48" sku="12630-06" />
+				<Size name="XL" price="5.48" sku="12640-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="0002">
+			<Name>Hydrophilic Sponge (2 ct)</Name>
+			<Sizes>
+				<Size name="A" price="4.28" sku="0705" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="0001">
+			<Name>Spot-X Hard Water Stain and Spot Remover Kit</Name>
+			<Sizes>
+				<Size name="NA" price="8.78" sku="0902-06" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="20103">
+			<Name>General Purpose Gloves</Name>
+			<Sizes>
+				<Size name="L" price="11.99" sku="20103" />
+				<Size name="XL" price="11.99" sku="20104" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="21203">
+			<Name>Heavy Duty Gloves</Name>
+			<Sizes>
+				<Size name="L" price="21.97" sku="21203" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="22003">
+			<Name>Utility Gloves</Name>
+			<Sizes>
+				<Size name="L" price="10.97" sku="22003" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="22203">
+			<Name>Crew Chief Gloves</Name>
+			<Sizes>
+				<Size name="L" price="21.97" sku="22203" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="22103">
+			<Name>Pro Fingerless Gloves</Name>
+			<Sizes>
+				<Size name="L" price="11.99" sku="22103" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23590">
+			<Name>Latex Gloves (10 ct)</Name>
+			<Sizes>
+				<Size name="A" price="2.18" sku="23510" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23590">
+			<Name>Latex Gloves (50 ct)</Name>
+			<Sizes>
+				<Size name="A" price="4.99" sku="23550" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23590">
+			<Name>Latex Gloves (100 ct)</Name>
+			<Sizes>
+				<Size name="A" price="9.87" sku="23590" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23890">
+			<Name>Nitrile Gloves (8 ct)</Name>
+			<Sizes>
+				<Size name="A" price="2.99" sku="23810" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23890">
+			<Name>Nitrile Gloves (40 ct)</Name>
+			<Sizes>
+				<Size name="A" price="4.99" sku="23850" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23890">
+			<Name>Nitrile Gloves (100 ct)</Name>
+			<Sizes>
+				<Size name="A" price="18.47" sku="23890" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23610">
+			<Name>Vinyl Gloves (50 ct)</Name>
+			<Sizes>
+				<Size name="A" price="6.99" sku="23650" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="23610">
+			<Name>Vinyl Gloves (100 ct)</Name>
+			<Sizes>
+				<Size name="A" price="10.97" sku="23690" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25023">
+			<Name>Suede Leather Palm Glove</Name>
+			<Sizes>
+				<Size name="A" price="2.99" sku="25023" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25063">
+			<Name>Cotton Canvas Gloves</Name>
+			<Sizes>
+				<Size name="A" price="2.99" sku="25063" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25083">
+			<Name>All-purpose Latex Coated Gloves</Name>
+			<Sizes>
+				<Size name="A" price="4.37" sku="25083" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25120">
+			<Name>All-purpose Brown Jersey Gloves</Name>
+			<Sizes>
+				<Size name="A" price="2.00" sku="25120" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25123">
+			<Name>Full Grain Leather Gloves</Name>
+			<Sizes>
+				<Size name="A" price="10.99" sku="25123" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25550">
+			<Name>Nitrile Coated All-purpose Gloves</Name>
+			<Sizes>
+				<Size name="A" price="4.99" sku="25550" />
+			</Sizes>
+		</StoreProduct>
+
+		<StoreProduct productId="25553">
+			<Name>Nitrile Foam Dipped Gloves</Name>
+			<Sizes>
+				<Size name="A" price="6.59" sku="25553" />
+			</Sizes>
+		</StoreProduct>
+
+	</StoreProducts>
+</BigTimeProducts>
