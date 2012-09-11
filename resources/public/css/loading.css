@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One);
+
+*, *:before, *:after { box-sizing: border-box; }
+
+body { background-color: #232323; }
+a { text-decoration: none; color: #0ff; }
+h1, p { color: #fff; }
+h1    {
+    font-family: 'Racing Sans One';
+    font-size: 3em;
+    text-align: center;
+}
+p {
+    width: 250px;
+    margin: 0px auto;
+}
+
+.loader {
+    position: relative;
+    left: -121px;
+    margin: 40px auto;
+    width: 0px;
+    height: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #5a5a5a;
+    border-radius: 5px;
+    animation: load 10s infinite;
+    box-shadow: 0px 0px #999;
+}
+.loader:before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 250px;
+    height: 18px;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    box-shadow:
+        0px 1px #5a5a5a inset,
+        0px -1px #5a5a5a inset;
+}
+
+@keyframes load {
+  from {
+    width: 0px;
+    left: -121px;
+  }
+  25% {
+    width: 100px;
+    left: -71px;
+    box-shadow: 30px 0px #999;
+  }
+  45% {
+    width: 140px;
+    left: -51px;
+    box-shadow: 0px 0px #999;
+  }
+  60% {
+    width: 236px;
+    left: -3px;
+  }
+  to {
+    width: 236px;
+    left: -3px;
+  }
+}
