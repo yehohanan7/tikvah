@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+        dojoConfig = {
+            isDebug:true,
+            parseOnLoad:true,
+            paths:{
+                tikvah:'/js/tikvah'
+            }
+        };
+    </script>
+</head>
+<body>
+
+<div data-dojo-type="tikvah.widgets.products.Products">hi</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/dojo/1.8.0/dojo/dojo.js"
+        data-dojo-config="async: true"></script>
+
+<script>
+    require(["tikvah/widgets/products/Products"], function () {
+
+    });
+</script>
+</body>
+
+
+</html>
