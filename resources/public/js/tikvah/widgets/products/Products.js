@@ -1,10 +1,33 @@
-define("tikvah/widgets/products/Products", ["dojo", "dijit/_Widget"], function (dojo) {
+define("tikvah/widgets/products/Products", ["dojo", "dijit/_Widget", "dojox/data/JsonRestStore", "dojox/grid/DataGrid"], function (dojo) {
 
     dojo.declare("tikvah.widgets.products.Products", [dijit._Widget], {
 
+        url:null,
+
+        store:null,
+
         postCreate:function () {
             console.log("inside widget")
-            alert(this.domNode)
+            var widget = this
+            if (!widget.url) {
+                widget.url = '/products'
+            }
+            widget.store = new dojox.data.JsonRestStore({target:widget.url});
+
+            var gridLayout = [
+                { field: 'id', name: 'Id', width: '50px' },
+                { field: 'name', name: 'Name', width: '250px' }
+            ];
+
+            var grid = new dojox.grid.DataGrid({
+                store:widget.store,
+                structure:gridLayout
+            }, document.createElement('div'));
+
+            widget.domNode.appendChild(grid.domNode)
+            grid.startup();
+
+            console.log("after post create")
         }
     });
 
