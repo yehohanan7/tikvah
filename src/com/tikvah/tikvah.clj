@@ -7,15 +7,14 @@
   (:use ring.middleware.json-params)
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
-            [compojure.response :as response]))
+            [ring.util.response :as response]))
 
 (defroutes main-routes
-  (GET "/" [] (str "welcome to tikvah"))
+  (GET "/" [] (response/redirect "/html/home.html"))
 
   (GET "/products/:id" [id] (json-response (find-product id)))
 
-  (POST "/products" request (create-product (parse-string
-                                              (slurp (:body request)))))
+  (PUT "/products" [data] (create-product  data))
 
 
   (route/resources "/")
@@ -25,3 +24,5 @@
   (-> (handler/site main-routes)
     wrap-json-params
     wrap-base-url))
+
+

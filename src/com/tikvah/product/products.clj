@@ -9,7 +9,7 @@
   )
 
 (defn create-product [product]
-    (if (repo/create-product {:id (product "id") :name (product "name")})
+    (if (repo/create-product product)
       "success"
       "error")
   )

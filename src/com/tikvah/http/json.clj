@@ -7,5 +7,8 @@
    :body (json/generate-string data)})
 
 (defn parse-string [data]
-  (json/parse-string data)
+  (let [x (json/parse-string data)]
+    (println "JSON:  " x)
+    x
+    )
   )
