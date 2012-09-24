@@ -1,17 +1,24 @@
 (ns com.tikvah.product.products
-  (:use com.tikvah.http.json)
-  (:require [com.tikvah.product.repository :as repo]))
+  (:require [com.tikvah.product.repository :as repo]
+            [com.tikvah.http.json :as json]))
 
 
-
-(defn find-product [id]
-   (repo/get-product id)
+(defn as-json [x]
+  (json/json-response x)
   )
 
-(defn create-product [product]
-    (if (repo/create-product product)
-      "success"
-      "error")
+(defn find [id]
+  (as-json (repo/get-product id))
+  )
+
+(defn create [product]
+  (if (repo/create-product product)
+    "success"
+    "error")
+  )
+
+(defn all []
+  (as-json (repo/all))
   )
 
 (defn update-product [{:keys [id name price] :or {name "" price 0}}]
