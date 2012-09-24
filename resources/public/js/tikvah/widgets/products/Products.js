@@ -1,9 +1,10 @@
-define("tikvah/widgets/products/Products", ["dojo"], function (dojo) {
+define("tikvah/widgets/products/Products", ["dojo", "dijit/_Widget"], function (dojo) {
 
-    dojo.declare("tikvah.widgets.products.Products", [], {
+    dojo.declare("tikvah.widgets.products.Products", [dijit._Widget], {
 
         postCreate:function () {
-            alert(this.domNode);
+            console.log("inside widget")
+            alert(this.domNode)
         }
     });
 
