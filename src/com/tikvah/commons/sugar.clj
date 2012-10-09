@@ -10,3 +10,16 @@
   ([mapper reducer data] (reduce reducer (map mapper data)))
   ([mapper reducer initial data] (reduce reducer initial (map mapper data)))
   )
+
+(defmacro -- [x]
+  (dec x)
+  )
+
+(defmacro ++ [x]
+  (inc x)
+  )
+
+
+;;(defmacro *times [n f input]
+;; `(((apply comp (take ~n (repeat ~f)))) ~input)
+;;  )
