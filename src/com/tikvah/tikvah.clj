@@ -20,6 +20,8 @@
 
   (PUT "/products" [data] (products/create data))
 
+  ;;(GET "/entities/:kind/:id" [kind id] ())
+
   (route/resources "/")
   (route/not-found "Page not found"))
 

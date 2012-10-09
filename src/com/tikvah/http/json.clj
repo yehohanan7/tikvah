@@ -8,7 +8,6 @@
 
 (defn parse-string [data]
   (let [x (json/parse-string data)]
-    (println "JSON:  " x)
     x
     )
   )

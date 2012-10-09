@@ -6,3 +6,7 @@
   )
 
 
+(defn mapreduce
+  ([mapper reducer data] (reduce reducer (map mapper data)))
+  ([mapper reducer initial data] (reduce reducer initial (map mapper data)))
+  )

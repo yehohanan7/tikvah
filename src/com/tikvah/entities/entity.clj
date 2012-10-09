@@ -17,3 +17,5 @@
 (defn all [kind]
   (as-json (repo/all kind))
   )
+
+
