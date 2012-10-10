@@ -19,6 +19,13 @@
   (inc x)
   )
 
+(defn fkey "gets the first key in the map" [map]
+  (first (keys map))
+  )
+
+(defn fvalue "gets the first value in the map" [map]
+  (first (vals map))
+  )
 
 ;;(defmacro *times [n f input]
 ;; `(((apply comp (take ~n (repeat ~f)))) ~input)

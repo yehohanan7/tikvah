@@ -1,0 +1,3 @@
+create 'table', 'cf1'
+
+put 'table', "rowid", "cf1:v1", "cf2:v2"
