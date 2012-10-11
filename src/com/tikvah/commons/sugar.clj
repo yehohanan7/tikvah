@@ -27,6 +27,7 @@
   (first (vals map))
   )
 
+
 ;;(defmacro *times [n f input]
 ;; `(((apply comp (take ~n (repeat ~f)))) ~input)
 ;;  )

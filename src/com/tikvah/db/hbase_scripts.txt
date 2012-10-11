@@ -1,3 +1,6 @@
 create 'table', 'cf1'
 
 put 'table', "rowid", "cf1:v1", "cf2:v2"
+
+scan 'table'
+scan 'table', {VERSIONS=>2}

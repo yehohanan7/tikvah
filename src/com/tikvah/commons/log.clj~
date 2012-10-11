@@ -1,0 +1,6 @@
+(ns com.tikvah.commons.log)
+
+
+(defn log [level & messages]
+  (println message)
+  )
