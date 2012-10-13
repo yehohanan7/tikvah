@@ -49,6 +49,24 @@
     )
   )
 
+(defn operation? [tablename operation &rows]
+  operation
+  )
+
+(defmulti table operation?)
+
+(defmethod table :put [tablename operation &rows]
+  (try
+    (let [config (HBaseConfiguration/create) table (findtable config tablename) puts (map #(toput %) rows) ]
+      (.put table puts)
+      )
+    (catch Exception e (println e (str tablename operation rows))))
+  )
+
+
+(defmethod table :atomic [tablename oeration &rows]
+  )
+
 (defn table
   "updates the hbase table with all the rows, prefer to use batch update if you want to do multuple updates"
   [tablename operation & rows]
