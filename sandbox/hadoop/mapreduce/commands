@@ -1,0 +1,1 @@
+ssh-keygen -t rsa -P '' -f $HOME/.ssh/id_rsa
