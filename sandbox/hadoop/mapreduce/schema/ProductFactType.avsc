@@ -1,0 +1,6 @@
+{
+    "type" : "enum",
+    "name" : "product_fact_type",
+    "doc"  : "different types of product facts",
+    "symbols" : ["ADDED", "UPDATED", "REMOVED"]
+}

@@ -2,6 +2,7 @@ package com.tikvah.repository;
 
 
 import org.apache.avro.Schema;
+import org.apache.avro.file.DataFileReader;
 import org.apache.avro.file.DataFileWriter;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericDatumReader;
@@ -33,13 +34,17 @@ public class FactTester {
         GenericRecord datum = new GenericData.Record(schema);
         datum.put("productid", new Utf8("123"));
         datum.put("facttype", new Utf8("new_product"));
-        datum.put("value", new Utf8("samsung galaxy note"));
+        datum.put("value", new Utf8("{name: samsung galaxy note, price: 125, currency: GBP}"));
+
+
 
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         DatumWriter<GenericRecord> writer = new GenericDatumWriter<GenericRecord>(schema);
 
         DataFileWriter<GenericRecord> dataFileWriter = new DataFileWriter<GenericRecord>(writer);
-        dataFileWriter.create(schema, new File("productfacts.avro"));
+        File file = new File("productfacts.avro");
+
+        dataFileWriter.create(schema, file);
         dataFileWriter.append(datum);
         dataFileWriter.flush();
 
@@ -54,5 +59,10 @@ public class FactTester {
         GenericRecord result = reader.read(null, decoder);
 
         assertThat(result.get("productid").toString(), is("123"));*/
+
+        DatumReader<GenericRecord> reader = new GenericDatumReader<GenericRecord>();
+        DataFileReader<GenericRecord> dataFileReader = new DataFileReader<GenericRecord>(file, reader);
+        System.out.println(dataFileReader.next().get("productid"));
+
     }
 }
