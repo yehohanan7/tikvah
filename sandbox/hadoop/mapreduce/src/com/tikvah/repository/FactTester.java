@@ -2,6 +2,7 @@ package com.tikvah.repository;
 
 
 import org.apache.avro.Schema;
+import org.apache.avro.file.DataFileWriter;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericDatumReader;
 import org.apache.avro.generic.GenericDatumWriter;
@@ -12,6 +13,7 @@ import org.apache.avro.io.*;
 import org.apache.avro.util.Utf8;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.IOException;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -35,7 +37,13 @@ public class FactTester {
 
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         DatumWriter<GenericRecord> writer = new GenericDatumWriter<GenericRecord>(schema);
-        Encoder encoder = EncoderFactory.get().binaryEncoder(out, null);
+
+        DataFileWriter<GenericRecord> dataFileWriter = new DataFileWriter<GenericRecord>(writer);
+        dataFileWriter.create(schema, new File("productfacts.avro"));
+        dataFileWriter.append(datum);
+        dataFileWriter.flush();
+
+        /*Encoder encoder = EncoderFactory.get().binaryEncoder(out, null);
         writer.write(datum, encoder);
         encoder.flush();
         out.close();
@@ -45,6 +53,6 @@ public class FactTester {
         Decoder decoder = DecoderFactory.get().binaryDecoder(out.toByteArray(), null);
         GenericRecord result = reader.read(null, decoder);
 
-        assertThat(result.get("productid").toString(), is("123"));
+        assertThat(result.get("productid").toString(), is("123"));*/
     }
 }
