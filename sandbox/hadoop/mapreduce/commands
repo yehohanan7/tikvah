@@ -8,3 +8,19 @@ $ ssh localhost
 If you cannot ssh to localhost without a passphrase, execute the following commands:
 $ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
 $ cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
+
+
+#copying local file to hdfs
+
+hadoop fs -copyFromLocal input/docs/quangle.txt hdfs://localhost/user/tom/ quangle.txt
+
+hadoop fs -copyToLocal quangle.txt quangle.copy.txt
+
+
+hadoop fs -mkdir tikvah
+hadoop fs -ls .
+
+#http browse
+http://localhost:50070/dfshealth.jsp
+
+

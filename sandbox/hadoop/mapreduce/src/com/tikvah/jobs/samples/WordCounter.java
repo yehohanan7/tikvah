@@ -14,7 +14,7 @@ import java.io.IOException;
 
 public class WordCounter {
 
-    private static String inputFile = "/Users/yehohanan7/dev/tikvah/sandbox/hadoop/mapreduce/wordsinput.txt";
+    private static String inputFile = "/Users/yehohanan7/dev/tikvah/sandbox/hadoop/mapreduce/sampleinput.txt";
     private static String outputFile = "/Users/yehohanan7/dev/tikvah/sandbox/hadoop/mapreduce/wordcounts";
 
     public static void main(String[] args) throws IOException {

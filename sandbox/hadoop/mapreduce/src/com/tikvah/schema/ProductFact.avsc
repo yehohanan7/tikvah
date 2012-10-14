@@ -1,0 +1,10 @@
+{
+    "type":"record",
+    "name":"ProductFact",
+    "doc":"Fact about a product",
+    "fields": [
+        {"name" : "productid", "type":"string"},
+        {"name" : "facttype", "type":"string"},
+        {"name" : "value", "type":"string"}
+    ]
+}

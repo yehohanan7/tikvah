@@ -10,12 +10,17 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sandbox/hadoop/mapreduce/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sandbox/hadoop/hadoop-1.0.4/src/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sandbox/hadoop/hadoop-1.0.4/src/hdfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sandbox/hadoop/hadoop-1.0.4/src/mapred" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="hadoop-ant-1.0.4" level="project" />
     <orderEntry type="library" name="clojure-1.4.0" level="project" />
+    <orderEntry type="library" name="ant" level="project" />
+    <orderEntry type="library" name="jsp-2.1" level="project" />
   </component>
 </module>
 
