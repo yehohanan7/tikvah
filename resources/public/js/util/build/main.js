@@ -29,7 +29,7 @@
 // See also:
 //
 // project home: http://bdframework.org/bdBuild/index
-// fossil: http://bdframework.org/bdBuild/repo
+// fossil: http://bdframework.org/bdBuild/repository
 // github: https://github.com/altoviso/bdBuild
 // docs: http://bdframework.org/bdBuild/docs
 

@@ -21,6 +21,16 @@
     <orderEntry type="library" name="clojure-1.4.0" level="project" />
     <orderEntry type="library" name="ant" level="project" />
     <orderEntry type="library" name="jsp-2.1" level="project" />
+    <orderEntry type="library" name="avro-1.6.3" level="project" />
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/sandbox/hadoop/mapreduce/schema" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 
