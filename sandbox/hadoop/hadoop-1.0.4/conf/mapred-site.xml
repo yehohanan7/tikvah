@@ -4,8 +4,5 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-    <property>
-        <name>mapred.job.tracker</name>
-        <value>localhost</value>
-    </property>
+
 </configuration>
