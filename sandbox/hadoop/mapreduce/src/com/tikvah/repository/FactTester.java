@@ -8,17 +8,13 @@ import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericDatumReader;
 import org.apache.avro.generic.GenericDatumWriter;
 import org.apache.avro.generic.GenericRecord;
-
-import org.apache.avro.io.*;
-
+import org.apache.avro.io.DatumReader;
+import org.apache.avro.io.DatumWriter;
 import org.apache.avro.util.Utf8;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
 
 public class FactTester {
 
