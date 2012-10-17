@@ -5,4 +5,5 @@ out
 target
 *.iml
 logs
-mongo/data
+sandbox/mongo/data
+data
