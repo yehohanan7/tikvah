@@ -13,7 +13,7 @@
 
   (GET "/" [] (response/redirect "/html/home.html"))
 
-  (GET "/products" [] (products/all))
+  (GET "/products/" [] (products/all))
 
   (GET "/products/:id" [id] (products/find id))
 

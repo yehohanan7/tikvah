@@ -22,5 +22,11 @@ hadoop fs -ls .
 
 #http browse
 http://localhost:50070/dfshealth.jsp
+http://jobtracker-host:50030/
+
+
+#to print response from hdfs
+
+hadoop fs -cat wordcounts/*
 
 

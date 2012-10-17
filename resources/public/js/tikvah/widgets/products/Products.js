@@ -16,7 +16,8 @@ define("tikvah/widgets/products/Products", ["dojo", "dijit/_Widget", "dojox/data
 
             var gridLayout = [
                 { field: 'id', name: 'Id', width: '50px' },
-                { field: 'name', name: 'Name', width: '250px' }
+                { field: 'name', name: 'Name', width: '250px' },
+                { field: 'price', name: 'Price', width: '250px' }
             ];
 
             var grid = new dojox.grid.DataGrid({
