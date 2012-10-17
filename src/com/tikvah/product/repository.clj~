@@ -1,5 +1,0 @@
-(ns com.tikvah.product.repository
-  (:require [monger.core :as mg])
-  (:import [com.mongodb MongoOptions ServerAddress]))
-
-
