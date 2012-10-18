@@ -1,4 +1,4 @@
-(ns com.tikvah.fact.schemas)
+(ns com.tikvah.facts.schemas)
 
 (import '(java.io File))
 
