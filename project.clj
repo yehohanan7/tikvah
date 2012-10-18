@@ -11,7 +11,8 @@
                  [ring-json-params "0.1.0"]
                  [org.apache.hbase/hbase "0.94.1"]
                  [org.apache.hadoop/hadoop-core "0.20.2"]
-                 [org.codehaus.jackson/jackson-mapper-asl "1.5.0"]]
+                 [org.codehaus.jackson/jackson-mapper-asl "1.5.0"]
+                 [org.mongodb/mongo-java-driver "1.3"]]
 
   :dev-dependencies [[lein-ring "0.6.7"]
                      [midje "1.4.0"]]
