@@ -1,5 +1,5 @@
-(ns com.tikvah.fact.listener
-  (:use [com.tikvah.fact.schemas]))
+(ns com.tikvah.facts.listener
+  (:use [com.tikvah.facts.schemas]))
 
 (import '(org.apache.avro.generic GenericData GenericDatumReader GenericDatumWriter GenericRecord))
 (import '(org.apache.avro.file DataFileReader DataFileWriter))

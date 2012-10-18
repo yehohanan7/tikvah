@@ -1,6 +1,5 @@
-(ns com.tikvah.fact.entityfact
-  :require [com.tikvah.fact.listener :as listener])
-
+(ns com.tikvah.facts.entityfact
+  :require [com.tikvah.facts.listener :as listener])
 
 
 (defn newentity [id attributes]
