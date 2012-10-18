@@ -18,24 +18,33 @@
     )
   )
 
-(defn- with-connection [f]
+(defn- execute [f]
   (let [_ (connect "localhost" 27017 "tikvah")]
     (f)
     )
   )
 
 (defn entitytypes []
-  (with-connection
+  (execute
     (fn []
       (.getCollectionNames @mongodb)
       )
     )
   )
 
+(defn query [entity-type conditions]
+  (execute (fn []
+             (let [entitystore (.getCollection @mongodb entity-type)]
+               (.findOne entitystore)
+               )
+             )
+    )
+  )
 
-(defrecord MongoInfoStore [entities conditions]
+(defrecord MongoInfoStore [entity-type conditions]
   InformationStore
-  (search [self] :search-not-implemented ))
+  (search [self] (execute (fn [] (query entity-type conditions))))
+  )
 
 (defn mongo-store [entity-type conditions]
   (MongoInfoStore. entity-type conditions)
