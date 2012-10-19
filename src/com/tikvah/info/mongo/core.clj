@@ -8,8 +8,7 @@
   (not (nil? @mongodb))
   )
 
-
-(defn connect [host port db]
+(defn- connect! [host port db]
   (if-not (connected?)
     (do
       (println "establishing mongo db connection.....")
@@ -18,26 +17,15 @@
     )
   )
 
-(defn- execute [f]
-  (let [_ (connect "localhost" 27017 "tikvah")]
-    (f)
-    )
-  )
+(connect! "localhost" 27017 "tikvah")
 
 (defn entitytypes []
-  (execute
-    (fn []
-      (.getCollectionNames @mongodb)
-      )
-    )
+  (.getCollectionNames @mongodb)
   )
 
 (defn query [entity-type conditions]
-  (execute (fn []
-             (let [entitystore (.getCollection @mongodb entity-type)]
-               (.findOne entitystore)
-               )
-             )
+  (let [entitystore (.getCollection @mongodb entity-type)]
+    (.findOne entitystore)
     )
   )
 
