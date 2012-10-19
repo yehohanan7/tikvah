@@ -4,20 +4,16 @@
 
 (def ^{:private true :doc "type of information store"} store-type :mongo )
 
-
-
-
 (defmulti store :store-type )
 
 (defmethod store :mongo [{:keys [entity-type conditions]}]
   (mongo-store entity-type conditions))
 
 
-
 (defn information-of [entity-type _ & conditions]
-  (search (store {:store-type store-type :entity-type entity-type :conditions conditions}))
+  (let [spec {:store-type store-type :entity-type entity-type :conditions conditions}]
+    (search (store spec))
+    )
   )
-
-
 
 ;;(information-of :products :having [:id :eq "prod123"])
