@@ -1,4 +1,5 @@
 (ns com.tikvah.info.mongo.core
+  "A clojure wrapper around mongo db java driver."
   (:use [com.tikvah.info.store])
   (:import [com.mongodb DB DBCollection BasicDBObject DBObject DBCursor Mongo]))
 
@@ -8,7 +9,7 @@
   (not (nil? @mongodb))
   )
 
-(defn- connect! [host port db]
+(defn- connect! "creates a new connection to the mongo db." [host port db]
   (if-not (connected?)
     (do
       (println "establishing mongo db connection.....")
@@ -19,11 +20,11 @@
 
 (connect! "localhost" 27017 "tikvah")
 
-(defn entitytypes []
+(defn entitytypes "Fetches all the entities (collections in mongo terminology) available in mongodb" []
   (.getCollectionNames @mongodb)
   )
 
-(defn query [entity-type conditions]
+(defn query "queries for the entity type (collection) with specific conditions " [entity-type conditions]
   (let [entitystore (.getCollection @mongodb entity-type)]
     (.findOne entitystore)
     )
