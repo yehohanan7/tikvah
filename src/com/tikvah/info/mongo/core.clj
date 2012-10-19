@@ -43,7 +43,7 @@
 
 (defrecord MongoInfoStore [entity-type conditions]
   InformationStore
-  (search [self] (execute (fn [] (query entity-type conditions))))
+  (search [self] (query entity-type conditions))
   )
 
 (defn mongo-store [entity-type conditions]
