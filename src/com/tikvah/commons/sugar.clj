@@ -36,3 +36,8 @@
 ;;(defmacro *times [n f input]
 ;; `(((apply comp (take ~n (repeat ~f)))) ~input)
 ;;  )
+
+
+(defn not-nil? [x]
+  (not (nil? x))
+  )

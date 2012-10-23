@@ -1,4 +1,0 @@
-(ns com.tikvah.db.testcore
-    (:use com.tikvah.db.core))
-
-

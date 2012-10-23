@@ -1,5 +1,6 @@
 (ns com.tikvah.db.mongo.core
-  (:use com.tikvah.db.core)
+  (:use com.tikvah.db.store)
+  (:use com.tikvah.commons.sugar)
   (:import [com.mongodb DB DBCollection BasicDBObject DBObject DBCursor Mongo]))
 
 
@@ -9,8 +10,10 @@
   (not (nil? @mongodb))
   )
 
-(defn- update-query! [query [k op v]]
-  (.put query (name k) v)
+(defn- update-query! [query condition]
+  (let [[k _ v] condition]
+    (.put query (name k) v)
+    )
   )
 
 (defn- apply-all [query conditions]
@@ -48,7 +51,7 @@
     )
   )
 
-(defrecord MongoCollection [collection-name store]
+(deftype MongoCollection [collection-name store]
   Collection
   (scan [this _ conditions]
     (let [connection (connect! store)
@@ -58,15 +61,12 @@
     )
   )
 
-(defrecord MongoStore [name host port] Store
-
+(deftype MongoStore [name host port] Store
   (collection [this collection-name]
-    (let [connection (connect! this)]
-      (MongoCollection. collection-name connection)
-      )
+    (MongoCollection. collection-name this)
     )
 
-  (connect! []
+  (connect! [this]
     (if-not (connected?)
       (do
         (println "establishing mongo db connection.....")
@@ -83,4 +83,4 @@
   (MongoStore. name host port)
   )
 
-(-> (store "tikvah") (collection :products ) (scan :having [:id :eq 12345]))
+;;(-> (store "tikvah") (collection :products ) (scan :having [:id :eq 12345]))
