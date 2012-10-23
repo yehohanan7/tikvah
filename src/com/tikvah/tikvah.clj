@@ -3,7 +3,7 @@
         com.tikvah.index
         com.tikvah.http.json
         [hiccup.middleware :only (wrap-base-url)])
-  (:require [com.tikvah.product.products :as products])
+  (:require [com.tikvah.product.core :as products])
   (:use ring.middleware.json-params)
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
@@ -17,10 +17,7 @@
 
   (GET "/products/:id" [id] (products/find id))
 
-
   (PUT "/products" [data] (products/create data))
-
-  ;;(GET "/entities/:kind/:id" [kind id] ())
 
   (route/resources "/")
   (route/not-found "Page not found"))

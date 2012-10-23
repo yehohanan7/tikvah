@@ -10,9 +10,11 @@
   (mongo-store entity-type conditions))
 
 
-(defn information-of [entity-type _ & conditions]
-  (let [spec {:store-type store-type :entity-type entity-type :conditions conditions}]
-    (search (store spec))
+(defn information-of [entity-type & conditions]
+  (let [storespec {:store-type store-type
+                   :entity-type entity-type
+                   :conditions (if-not (nil? conditions) (rest conditions) conditions)}]
+    (search (store storespec))
     )
   )
 
