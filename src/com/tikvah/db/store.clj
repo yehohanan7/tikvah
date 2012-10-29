@@ -7,6 +7,6 @@
   )
 
 (defprotocol Collection
-  (scan [this _ conditions])
+  (scan [this predicate])
   )
 

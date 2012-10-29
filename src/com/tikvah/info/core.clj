@@ -1,21 +1,13 @@
 (ns com.tikvah.info.core
-  (:use [com.tikvah.info.store])
-  (:use [com.tikvah.info.mongo.core]))
-
-(def ^{:private true :doc "type of information store"} store-type :mongo )
-
-(defmulti store :store-type )
-
-(defmethod store :mongo [{:keys [entity-type conditions]}]
-  (mongo-store entity-type conditions))
-
-
-(defn information-of [entity-type & conditions]
-  (let [storespec {:store-type store-type
-                   :entity-type entity-type
-                   :conditions (if-not (nil? conditions) (rest conditions) conditions)}]
-    (search (store storespec))
-    )
+  (:use [com.tikvah.db.store])
+  (:use [com.tikvah.db.core])
+  (:use [com.tikvah.db.mongo.core])
   )
 
-;;(information-of :products :having [:id :eq "prod123"])
+(def ^{:private true} info-db "tikvah")
+
+(defn information-of [entity-type predicate]
+  (-> (store info-db) (collection entity-type) (scan predicate))
+  )
+
+;(info-of :products :having [:id :eq "prod123"])

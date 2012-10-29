@@ -1,11 +1,11 @@
 (ns ^{:doc "Provides CRUD operations for a generic entity"
       :author "John"} com.tikvah.entities.entity
-  (:require [com.tikvah.http.json :as json]
-            [com.tikvah.entities.repository :as repo])
+  (:use [com.tikvah.info.core])
+  (:require [com.tikvah.http.json :as json])
   )
 
 (defn find [id kind]
-  (as-json (repo/get id kind))
+  (as-json (information-of kind ($eq :id id)))
   )
 
 (defn create [data kind]
@@ -15,7 +15,7 @@
   )
 
 (defn all [kind]
-  (as-json (repo/all kind))
+  (as-json (information-of kind ($gt :id "1")))
   )
 
 

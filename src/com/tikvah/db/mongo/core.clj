@@ -3,6 +3,21 @@
   (:use com.tikvah.commons.sugar)
   (:import [com.mongodb DB DBCollection BasicDBObject DBObject DBCursor Mongo]))
 
+;;predicates
+
+(defn $eq [k v]
+  (fn [query] (.put query (name k) v))
+  )
+
+(defn $gt [k v]
+  (fn [query] (.put query (name k) (BasicDBObject. "$gt" v)))
+  )
+
+(defn $ne [k v]
+  (fn [query] (.put query (name k) (BasicDBObject. "$ne" v)))
+  )
+;;end of predicates
+
 
 (def ^{:private true} mongodb (atom nil))
 
@@ -10,53 +25,32 @@
   (not (nil? @mongodb))
   )
 
-(defn- update-query! [query condition]
-  (let [[k _ v] condition]
-    (.put query (name k) v)
-    )
-  )
-
-(defn- apply-all [query conditions]
-  (doseq [condition conditions] (update-query! query condition))
-  )
-
-(defn with-query [conditions]
-  (doto (BasicDBObject.) (apply-all conditions))
-  )
-
-(defn- cursor [collection conditions]
-  (if (nil? conditions)
+(defn- cursor [collection predicate]
+  (if (nil? predicate)
     (.find collection)
-    (.find collection (with-query conditions))
+    (.find collection (doto (BasicDBObject.) (predicate))))
     )
-  )
 
 (defn convert [dbobject]
   (.get dbobject "name")
   )
 
-(defn map-cursor
-  ([cursor] (map-cursor cursor []))
-  ([cursor result]
+(defn mongo-collection [cursor]
+  (lazy-seq
     (if (.hasNext cursor)
-      (recur cursor (conj result (convert (.next cursor))))
-      result
+      (cons (convert (.next cursor)) (mongo-collection cursor))
+      nil
       )
     )
-  )
-
-(defn query "queries the collection for specific conditions" [collection conditions]
-  (let [cursor (cursor collection conditions)]
-    (map-cursor cursor)
-    )
-  )
+   )
 
 (deftype MongoCollection [collection-name store]
   Collection
-  (scan [this _ conditions]
+  (scan [this predicate]
     (let [connection (connect! store)
-          collection (.getCollection @connection (name collection-name))]
-      (query collection conditions)
+          collection (.getCollection @connection (name collection-name))
+          cursor (cursor collection predicate)]
+      (mongo-collection cursor)
       )
     )
   )
@@ -83,4 +77,8 @@
   (MongoStore. name host port)
   )
 
-;;(-> (store "tikvah") (collection :products ) (scan :having [:id :eq 12345]))
+
+(defn test-coll []
+   ;(-> (mongo-store "tikvah" {:host "localhost" :port 27017}) (collection :products ) (scan ($gt :id "1")))
+  )
+

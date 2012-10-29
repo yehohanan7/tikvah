@@ -1,7 +1,7 @@
 (ns com.tikvah.product.core
   (:use [com.tikvah.info.core])
-  (:require [com.tikvah.http.json :as json]
-            [com.tikvah.info.core :as info]))
+  (:use [com.tikvah.db.mongo.core])
+  (:require [com.tikvah.http.json :as json]))
 
 
 (defn as-json [x]
@@ -9,7 +9,7 @@
   )
 
 (defn find [id]
-  (as-json (information-of :products :having [:id :eq id]))
+  (as-json (information-of :products ($eq :id id)))
   )
 
 (defn create [product]
@@ -17,7 +17,7 @@
   )
 
 (defn all []
-  ;;(as-json (repo/all))
+  (as-json (information-of :products ($gt :id "1"))) ;; should correct this
   )
 
 (defn update-product [{:keys [id name price] :or {name "" price 0}}]

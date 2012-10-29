@@ -4,3 +4,5 @@
 
 
 (fact (str (class (store "tikvah"))) => "class com.tikvah.db.mongo.core.MongoStore")
+
+
