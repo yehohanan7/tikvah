@@ -1,7 +1,7 @@
 (ns com.tikvah.db.mongo.core
   (:use com.tikvah.db.store)
   (:use com.tikvah.commons.sugar)
-  (:import [com.mongodb DB DBCollection BasicDBObject DBObject DBCursor Mongo]))
+  (:import [com.mongodb DB DBCollection BasicDBObject BasicDBList DBObject DBCursor Mongo]))
 
 ;;predicates
 
@@ -29,7 +29,7 @@
   (if (nil? predicate)
     (.find collection)
     (.find collection (doto (BasicDBObject.) (predicate))))
-    )
+  )
 
 (defn convert [dbobject]
   (.get dbobject "name")
@@ -42,7 +42,33 @@
       nil
       )
     )
-   )
+  )
+
+;; Persistent data structure to Mongo specific object (serializers)
+(defprotocol BasicDBObjectUpdater
+  (to-basicobject [this])
+  )
+
+(extend-protocol BasicDBObjectUpdater java.lang.Object
+  (to-basicobject [this] (str this))
+  )
+
+(extend-protocol BasicDBObjectUpdater clojure.lang.IPersistentMap
+  (to-basicobject [this]
+    (doto (BasicDBObject.) (#(doseq [[k v] this] (.put % (name k) (to-basicobject v)))))
+    )
+  )
+
+(extend-protocol BasicDBObjectUpdater clojure.lang.IPersistentCollection
+  (to-basicobject [this]
+    this
+    )
+  )
+
+;; end of serializers
+
+
+
 
 (deftype MongoCollection [collection-name store]
   Collection
@@ -51,6 +77,14 @@
           collection (.getCollection @connection (name collection-name))
           cursor (cursor collection predicate)]
       (mongo-collection cursor)
+      )
+    )
+
+  (add [this data]
+    (let [connection (connect! store)
+          collection (.getCollection @connection (name collection-name))
+          dbobject (to-basicobject (assoc data :_id (:id data)))]
+      (.insert collection dbobject)
       )
     )
   )
@@ -79,6 +113,8 @@
 
 
 (defn test-coll []
-   ;(-> (mongo-store "tikvah" {:host "localhost" :port 27017}) (collection :products ) (scan ($gt :id "1")))
+  ;(-> (mongo-store "tikvah" {:host "localhost" :port 27017}) (collection :products ) (scan ($gt :id "1")))
+  ;;(use 'com.tikvah.db.core) (use 'com.tikvah.db.store) (use 'com.tikvah.db.mongo.core)
+  ;;(-> (mongo-store "tikvah" {:host "localhost" :port 27017}) (collection :products ) (add {:id "7777" :name "super product" :price "555"}))
   )
 
