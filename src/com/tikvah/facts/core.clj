@@ -1,19 +1,10 @@
 (ns com.tikvah.facts.core
-  (:use com.tikvah.facts.logstore))
+  (:use [com.tikvah.db.core])
+  (:use [com.tikvah.db.store]))
 
-
-(defn- string-format [& xs]
-  (apply str (interpose " " (map #(if (keyword? %) (name %) %) xs)))
+(defn new-fact [subject verb object]
+  (-> (store "tikvah") (collection :productfacts) (add {:id subject :type verb :value object}))
   )
-
-(defn fact-store [fact-type]
-  log-store
-  )
-
-;;(defn fact [fact-type fact-identity [subject verb object]]
-;;  (string-format fact-identity "'s " subject verb object)
-;;  )
-
 
 
 
