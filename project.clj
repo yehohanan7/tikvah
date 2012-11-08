@@ -13,10 +13,10 @@
                  [org.apache.hadoop/hadoop-core "0.20.2"]
                  [org.codehaus.jackson/jackson-mapper-asl "1.5.0"]
                  [org.mongodb/mongo-java-driver "1.3"]
-                 [clj-time "0.4.4"]]
+                 [clj-time "0.4.4"]
+                 [midje "1.4.0"]]
 
-  :dev-dependencies [[lein-ring "0.6.7"]
-                     [midje "1.4.0"]]
-
+  :plugins [[lein-ring "0.7.5"]]
+  
   :ring {:handler com.tikvah.tikvah/app})
 

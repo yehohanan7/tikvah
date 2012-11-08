@@ -6,9 +6,3 @@
   (-> (store "tikvah") (collection :productfacts) (add {:id subject :type verb :value object}))
   )
 
-
-
-
-
-
-

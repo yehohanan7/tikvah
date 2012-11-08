@@ -23,7 +23,7 @@
 (fact (factdb/new-fact "prod1" :name-is "Bose speakers") => true
   (provided (store "tikvah") => mockedstore))
 
-;.;. Without work, all life goes rotten. -- Camus
+
 (fact (factdb/new-fact "prod1" :price-is "25 GBP") => true
   (provided (store "tikvah") => mockedstore))
 

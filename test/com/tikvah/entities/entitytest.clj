@@ -6,13 +6,8 @@
 
 
 
-;.;. [31mFAIL[0m at (NO_SOURCE_FILE:1)
-;.;. You never said new-fact would be needed with these arguments:
-;.;.     ("testprod" :name-is "test product name")
-;.;. 
-;.;. [31mFAIL[0m at (NO_SOURCE_FILE:1)
-;.;.     Expected: :success
-;.;.       Actual: (nil nil nil)
+;.;. One of the symptoms of an approaching nervous breakdown is the belief
+;.;. that one's work is terribly important. -- Russell
 (fact (entity/create {:id "testprod" :name "test product name"} :products) => true
   (provided (new-fact "testprod" :created-on anything) => true)
   (provided (new-fact "testprod" :name-is "test product name") => true))
