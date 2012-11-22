@@ -17,13 +17,13 @@
 (def mockedstore (MockStore. "dummy"))
 
 
-(fact (factdb/new-fact "prod1" :added-on (dt/date-time 2012 10 1)) => true
+(fact (factdb/new-fact :productfacts "prod1" :added-on (dt/date-time 2012 10 1)) => true
   (provided (store "tikvah") => mockedstore))
 
-(fact (factdb/new-fact "prod1" :name-is "Bose speakers") => true
+(fact (factdb/new-fact :productfacts "prod1" :name-is "Bose speakers") => true
   (provided (store "tikvah") => mockedstore))
 
 
-(fact (factdb/new-fact "prod1" :price-is "25 GBP") => true
+(fact (factdb/new-fact :productfacts "prod1" :price-is "25 GBP") => true
   (provided (store "tikvah") => mockedstore))
 

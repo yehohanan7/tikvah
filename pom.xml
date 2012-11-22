@@ -10,7 +10,7 @@
   <scm>
     <connection>scm:git:git://github.com/yehohanan7/tikvah.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/yehohanan7/tikvah.git</developerConnection>
-    <tag>fae5ab9251e4a50a03bf1f07a2b474ae4de8e813</tag>
+    <tag>811bf143d659c7a71d09ce25f55a9a50faa49cb5</tag>
     <url>https://github.com/yehohanan7/tikvah</url>
   </scm>
   <build>
