@@ -20,16 +20,19 @@
                       ["4" :created-on (dt/now)]
                       ["4" :name-is "Joy of clojure"]
                       ["4" :price "311"]
+
+                      ["1" :category-is "electronics"]
+                      ["2" :category-is "electronics"]
+                      ["2" :category-is "games"]
+                      ["3" :category-is "books"]
+                      ["4" :category-is "books"]
+                      
                       ]} )
 
 (def categoryfacts {:type :categoryfacts :facts [
                                                   ["electronics" :created-on (dt/now)]
-                                                  ["electronics" :has-product "1"]
-                                                  ["electronics" :has-product "2"]
-
                                                   ["books" :created-on (dt/now)]
-                                                  ["books" :has-product "3"]
-                                                  ["books" :has-product "4"]
+                                                  ["games" :created-on (dt/now)]
                                                   ]
                     }
   )

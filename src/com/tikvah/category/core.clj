@@ -8,5 +8,7 @@
   (new-fact :categoryfacts (:id category) :created-on (dt/now))
   )
 
-
+(defn update-attribute [category-id attribute]
+  (new-fact :categoryfacts category-id  :has-attribute attribute)
+  )
 

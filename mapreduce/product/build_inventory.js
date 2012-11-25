@@ -6,16 +6,22 @@ var mapper = function() {
 
 
 var reducer = function(key, values) {
-    var name_mapping = {"created-on": "timestamp", "name-is" : "name", "price" : "price"}
+    var name_mapping = {"created-on": "timestamp", "name-is" : "name", "price" : "price", "category-is" : "category"}
     var result = {};
+    var categories = []
     for (var i = 0; i < values.length; i++) {
         var value = values[i];
         for (var attr in value) {
             if (value.hasOwnProperty(attr)) {
-                result[name_mapping[attr]] = value[attr];
-            }
+                if (name_mapping[attr] == 'category') { 
+                    categories.push(value[attr])
+                } else {
+                    result[name_mapping[attr]] = value[attr];
+                }
+            }            
         }
     }
+    result['categories']= categories
     return result;
 }
 

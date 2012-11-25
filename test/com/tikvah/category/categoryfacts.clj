@@ -9,6 +9,12 @@
 (fact (categories/create {:id "electronics" :name "electronic products"}) => true
       (provided (new-fact :categoryfacts "electronics" :created-on anything) => true))
 
+(let [new-attribute {:id "discount" :value "25 percent"}]
+  (fact (categories/update-attribute "electronics" new-attribute) => true
+      (provided (new-fact :categoryfacts "electronics" :has-attribute new-attribute) => true))
+  )
+
+
 
 
 
