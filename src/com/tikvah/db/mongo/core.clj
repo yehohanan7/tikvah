@@ -32,7 +32,7 @@
   )
 
 (defn convert [dbobject]
-  (.get dbobject "name")
+  (.get dbobject "value")
   )
 
 (defn mongo-collection [cursor]
@@ -83,7 +83,7 @@
   (add [this data]
     (let [connection (connect! store)
           collection (.getCollection @connection (name collection-name))
-          dbobject (to-basicobject (assoc data :_id (:id data)))]
+          dbobject (to-basicobject data)]
       (.insert collection dbobject)
       )
     )

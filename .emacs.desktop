@@ -1,0 +1,107 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Nov 20 17:37:00 2012
+;; Desktop file format version 206
+;; Emacs version 23.3.50.1
+
+;; Global section:
+(setq tabbar-desktop-saved-tabsets '(("*scratch*" "core.clj" "coretest.clj" "core.clj<2>" "core.clj<3>" "core.clj<4>" "coretest.clj<2>" "factsinfo.clj")))
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("clojure" "lein" "as-js"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/dev/tikvah/" "~/dev/tikvah/src/com/tikvah/facts/core.clj" "~/dev/tikvah/src/com/tikvah/db/core.clj" "~/dev/tikvah/test/com/tikvah/factsinfo.clj" "~/dev/tikvah/test/com/tikvah/facts/coretest.clj" "~/dev/tikvah/src/com/tikvah/facts/core.clj" "~/dev/tikvah/test/com/tikvah/info/coretest.clj" "~/dev/tikvah/src/com/tikvah/db/mongo/core.clj" "~/dev/tikvah/src/com/tikvah/db/core.clj" "~/dev/tikvah/test/com/tikvah/info/coretest.clj" "~/dev/tikvah/src/com/tikvah/info/core.clj" "~/dev/tikvah/test/com/tikvah/info/coretest.clj" "~/dev/tikvah/src/com/tikvah/info/core.clj" "~/dev/tikvah/test/com/tikvah/info/coretest.clj" "~/dev/tikvah/src/com/tikvah/info/core.clj" "~/Library/Application Support/Aquamacs Emacs/elpa/ac-nrepl-0.12/ac-nrepl-autoloads.el" "~/Library/Application Support/Aquamacs Emacs/elpa/auto-complete-1.4/auto-complete-autoloads.el" "~/dev/tikvah/src/com/tikvah/info/core.clj" "~/Library/Application Support/Aquamacs Emacs/elpa/popup-0.5/popup-autoloads.el" "~/Library/Application Support/Aquamacs Emacs/elpa/archives/gnu/archive-contents" "~/Library/Application Support/Aquamacs Emacs/elpa/archives/marmalade/archive-contents" "~/Library/Application Support/Aquamacs Emacs/elpa/archives/elpa/archive-contents" "~/dev/tikvah/test/com/tikvah/info/coretest.clj" "~/dev/tikvah/src/com/tikvah/info/core.clj" "~/dev/tikvah/test/com/tikvah/info/coretest.clj" "~/dev/tikvah/src/com/tikvah/info/core.clj" "~/dev/tikvah/src/com/tikvah/db/core.clj" "~/dev/tikvah/src/com/tikvah/db/mongo/core.clj" "~/dev/tikvah/src/com/tikvah/db/core.clj" "~/dev/tikvah/src/com/tikvah/product/core.clj"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/test/com/tikvah/factsinfo.clj"
+  "factsinfo.clj"
+  'clojure-mode
+  nil
+  578
+  '(252 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/test/com/tikvah/facts/coretest.clj"
+  "coretest.clj<2>"
+  'clojure-mode
+  nil
+  534
+  '(510 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/src/com/tikvah/facts/core.clj"
+  "core.clj<4>"
+  'clojure-mode
+  nil
+  212
+  '(201 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/src/com/tikvah/db/core.clj"
+  "core.clj<2>"
+  'clojure-mode
+  nil
+  114
+  '(96 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/src/com/tikvah/info/core.clj"
+  "core.clj"
+  'clojure-mode
+  nil
+  246
+  '(246 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/test/com/tikvah/info/coretest.clj"
+  "coretest.clj"
+  'clojure-mode
+  nil
+  61
+  '(32 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/dev/tikvah/src/com/tikvah/db/mongo/core.clj"
+  "core.clj<3>"
+  'clojure-mode
+  nil
+  888
+  '(2014 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/yehohanan7/Library/Application Support/Aquamacs Emacs/scratch buffer"
+  "*scratch*"
+  'text-mode
+  '(visual-line-mode smart-spacing-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8) (truncate-lines)))
+
