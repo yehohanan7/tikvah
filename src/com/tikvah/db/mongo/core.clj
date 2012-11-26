@@ -18,6 +18,26 @@
   )
 ;;end of predicates
 
+;;Mongo specific object to Clojure map (deserializers)
+
+(defprotocol MongoDataConverter
+  "converts com.mongodb.BasicDBObject to clojure map"
+  (convert [this])
+  )
+
+(extend-protocol MongoDataConverter java.lang.Object
+    (convert [this] (str this))
+    )
+
+(extend-protocol MongoDataConverter com.mongodb.BasicDBList
+    (convert [this] (map convert this))
+    )
+
+(defn to-map [dbobject]
+  (apply merge (map #(let [[k v] %] {(keyword k) (convert v)}) (.get dbobject "value"))) 
+  )
+
+;; end of deserializer
 
 (def ^{:private true} mongodb (atom nil))
 
@@ -31,18 +51,16 @@
     (.find collection (doto (BasicDBObject.) (predicate))))
   )
 
-(defn convert [dbobject]
-  (.get dbobject "value")
-  )
 
 (defn mongo-collection [cursor]
   (lazy-seq
     (if (.hasNext cursor)
-      (cons (convert (.next cursor)) (mongo-collection cursor))
+      (cons (to-map (.next cursor)) (mongo-collection cursor))
       nil
       )
     )
   )
+
 
 ;; Persistent data structure to Mongo specific object (serializers)
 (defprotocol BasicDBObjectUpdater
