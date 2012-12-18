@@ -1,12 +1,13 @@
 var mapper = function() {
     var value = {};
     value[this.type] = this.value;
+    value['code'] = this.id;
     emit(this.id, value);
 }
 
 
 var reducer = function(key, values) {
-    var name_mapping = {"created-on": "timestamp", "name-is" : "name", "price" : "price", "category-is" : "category"}
+    var name_mapping = {"created-on": "timestamp", "name-is" : "name", "price" : "price", "category-is" : "category", "code" : "code"}
     var result = {};
     var categories = []
     for (var i = 0; i < values.length; i++) {
@@ -25,25 +26,23 @@ var reducer = function(key, values) {
     return result;
 }
 
-var clear_products = function(db) {
-    console.log('clearing products collection...')
+
+exports.execute = function(db, client) {
     db.collection('products', function (error, collection) {
-        collection.remove({}, function(error, removed) {console.log('products cleared')})
-    })
-}
-exports.execute = function(db) {
-    clear_products(db)
-    db.open(function (error, client) {
-        console.log('building products from product facts....')
-        client.collection('productfacts', function(error, collection) {
-            collection.mapReduce(mapper, reducer, {
-                out : "products",
-                verbose : true
-                }, 
-                function (error, results, stats) {
-                   console.log('products view built successfully!')
-                }
-           )
+        collection.remove({}, function(error, removed) {
+            console.log('products cleared')
+            console.log('building products from product facts....')
+            client.collection('productfacts', function(error, collection) {
+                collection.mapReduce(mapper, reducer, {
+                    out : "products",
+                    verbose : true
+                    }, 
+                    function (error, results, stats) {
+                       console.log('products view built successfully!')
+                    }
+               )
+            })
         })
     })
 }
+

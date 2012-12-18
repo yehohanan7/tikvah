@@ -18,7 +18,7 @@
   )
 
 (defn all []
-  (information-of :products ($gt :_id "1")) ;; should correct this
+  (information-of :products ($gt :_id "-1")) ;; should correct this
   )
 
 

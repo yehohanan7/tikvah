@@ -15,10 +15,10 @@ define("tikvah/widgets/products/Products", ["dojo", "dijit/_Widget", "dojox/data
             widget.store = new dojox.data.JsonRestStore({target:widget.url});
 
             var gridLayout = [
-                { field: 'id', name: 'Id', width: '50px' },
+                { field: 'code', name: 'Id', width: '50px' },
                 { field: 'name', name: 'Name', width: '250px' },
-                { field: 'price', name: 'Price', width: '250px' }
-            ];
+                { field: 'price', name: 'Price', width: '250px' },
+                { field: 'categories', name: 'Categories', width: '250px' }];
 
             var grid = new dojox.grid.DataGrid({
                 store:widget.store,
